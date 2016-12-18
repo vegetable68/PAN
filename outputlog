@@ -1,0 +1,5 @@
+Using gpu device 0: GRID K520 (CNMeM is disabled, cuDNN 4007)
+/usr/local/lib/python2.7/dist-packages/theano/tensor/signal/downsample.py:6: UserWarning: downsample module has been moved to the theano.tensor.signal.pool module.
+  "downsample module has been moved to the theano.tensor.signal.pool module.")
+train_rmn.py:161: VisibleDeprecationWarning: converting an array with ndim > 0 to an index will result in an error in the future
+  bname = bmap[book]
