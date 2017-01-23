@@ -90,11 +90,11 @@ def build_rmn(d_word, d_char, d_book, d_hidden, len_voc,
     traj_fn = theano.function([in_book, #in_chars, 
         in_spans, in_dropmasks], 
         lasagne.layers.get_output(l_rels))
-    avg_fn = theano.function([in_book, #in_chars, 
+    avg_fn = theano.function([in_book, 
         in_spans, in_dropmasks], 
         lasagne.layers.get_output(l_rels),
 	on_unused_input="warn")
-    train_fn = theano.function([in_book, #in_chars, 
+    train_fn = theano.function([in_book, 
         in_spans, in_currmasks, in_dropmasks,
         in_neg, in_negmasks], 
         [loss, ortho_penalty], updates=updates)
@@ -104,8 +104,8 @@ if __name__ == '__main__':
 
     print 'loading data...'
     span_data, span_size, wmap, cmap, bmap = \
-        load_data('data/characters.csv.gz', 'data/characters_metadata.pkl')
-    We = cPickle.load(open('data/movie_word_embeddings.pkl', 'rb')).astype('float32')
+        load_data('data/movie_characters.csv.gz', 'data/movie_metadata.pkl')
+    We = cPickle.load(open('data/glove.We', 'rb')).astype('float32')
     norm_We = We / np.linalg.norm(We, axis=1)[:, None]
     We = np.nan_to_num(norm_We)
     descriptor_log = 'models/descriptors.log'
@@ -119,7 +119,7 @@ if __name__ == '__main__':
     d_hidden = 50
 
     # number of descriptors
-    num_descs = 50
+    num_descs = 30
 
     # number of negative samples per relationship
     num_negs = 50
@@ -127,7 +127,7 @@ if __name__ == '__main__':
     # word dropout probability
     p_drop = 0.50
     
-    n_epochs = 15
+    n_epochs = 30 
     lr = 0.001
     eps = 1e-6
     num_chars = len(cmap)
@@ -157,14 +157,14 @@ if __name__ == '__main__':
     itraj_writer.writerow(['Book', 'Char 1', 'Char 2', 'Span ID'] + \
            ['Topic ' + str(i) for i in range(num_descs)])
     for book, chars, curr, cm in span_data:
-        c1, c2 = [cmap[c] for c in chars]
+        c = [cmap[c] for c in chars]
         bname = bmap[book]
 
         # feed unmasked inputs to get trajectories
         traj = avg_fn(book, curr, cm) #chars, 
         for ind in range(len(traj)):
             step = traj[ind]
-            itraj_writer.writerow([bname, c1, c2, ind] + \
+            itraj_writer.writerow([bname, c, ind] + \
                     list(step) )   
 
     ilog.flush()
@@ -217,14 +217,14 @@ if __name__ == '__main__':
             traj_writer.writerow(['Book', 'Char 1', 'Char 2', 'Span ID'] + \
                 ['Topic ' + str(i) for i in range(num_descs)])
             for book, chars, curr, cm in span_data:
-                c1, c2 = [cmap[c] for c in chars]
+                c = [cmap[c] for c in chars]
                 bname = bmap[book]
 
                 # feed unmasked inputs to get trajectories
                 traj = traj_fn(book, curr, cm) #chars, 
                 for ind in range(len(traj)):
                     step = traj[ind]
-                    traj_writer.writerow([bname, c1, c2, ind] + \
+                    traj_writer.writerow([bname, c, ind] + \
                     list(step) )   
 
             tlog.flush()

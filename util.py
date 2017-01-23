@@ -16,20 +16,19 @@ def load_data(span_path, metadata_path):
     span_dict = {}
     for row in x:
         text = row['Words'].split()
+	roles = row['Roles'].split()
         if len(text) > max_len:
             max_len = len(text)
-        key = '++++$++++'.join([row['Book'], row['Char 1'], row['Char 2']])
+        key = '++++$++++'.join([row['Movie'], row['Character']])
         if key not in span_dict:
             span_dict[key] = []
         span_dict[key].append([wmap[w] for w in text])
 
     span_data = []
     for key in span_dict:
-        book, c1, c2 = key.split('++++$++++')
-	if c1 == "her brother Michael 's -LRB- -LRB- Newfoundland ":
-	   print key
-        book = np.array([revbmap[book], ]).astype('int32')
-        chars = np.array([revcmap[c1], revcmap[c2]]).astype('int32')
+        movie, character = key.split('++++$++++')
+        movie = np.array([revbmap[movie]]).astype('int32')
+        chars = np.array([revcmap[character]]).astype('int32')
 
         # convert spans to numpy matrices 
         spans = span_dict[key]
@@ -40,7 +39,7 @@ def load_data(span_path, metadata_path):
             s[i][:len(curr_span)] = curr_span
             m[i][:len(curr_span)] = 1.
 
-        span_data.append([book, chars, s, m])
+        span_data.append([movie, chars, s, m])
     return span_data, max_len, wmap, cmap, bmap
 
 

@@ -1,0 +1,1560 @@
+loading data...
+200 127 30 1921 75691 36144 187530
+compiling...
+done compiling, now training...
+writing trajectories...
+descriptor 0:
+[u'heartbroken_attribute', u'reconcile_agent', u'disappoint_patient', u'forgive_agent', u'reject_patient', u'propose_patient', u'shock_patient', u'devastate_patient', u'reject_agent', u'disappointed_attribute']
+descriptor 1:
+[u'have_agent', u'arrange_agent', u'fail_agent', u'forgive_patient', u'quit_agent', u'stop_patient', u'feign_agent', u'successful_attribute', u'conspire_agent', u'buy_agent']
+descriptor 2:
+[u'wake_patient', u'wander_agent', u'slam_agent', u'pop_agent', u'awaken_agent', u'appear_patient', u'climb_agent', u'crawl_agent', u'dive_agent', u'pull_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'assign_patient', u'locate_agent', u'investigate_agent', u'promote_patient', u'agent_attribute', u'deduce_agent', u'police_attribute', u'defeat_agent']
+descriptor 4:
+[u'small_attribute', u'white_attribute', u'other_attribute', u'only_attribute', u'homeless_attribute', u'last_attribute', u'strange_attribute', u'black_attribute', u'disguise_patient', u'transform_patient']
+descriptor 5:
+[u'father_attribute', u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'uncle_attribute', u'husband_attribute', u'mother_attribute', u'manager_attribute', u'marry_patient']
+descriptor 6:
+[u'worried_attribute', u'annoy_patient', u'complain_agent', u'worry_patient', u'reply_agent', u'reassure_patient', u'walk_patient', u'sure_attribute', u'frustrated_attribute', u'sit_agent']
+descriptor 7:
+[u'child_attribute', u'baby_attribute', u'boy_attribute', u'raise_patient', u'kid_attribute', u'girl_attribute', u'son_attribute', u'daughter_attribute', u'orphan_attribute', u'adopt_patient']
+descriptor 8:
+[u'son_attribute', u'brother_attribute', u'sister_attribute', u'daughter_attribute', u'child_attribute', u'boy_attribute', u'parent_attribute', u'student_attribute', u'kid_attribute', u'widow_attribute']
+descriptor 9:
+[u'take_agent', u'tell_patient', u'approach_agent', u'punch_agent', u'accuse_agent', u'mysterious_attribute', u'seduce_agent', u'confess_agent', u'same_attribute', u'pay_patient']
+descriptor 10:
+[u'girl_attribute', u'beautiful_attribute', u'girlfriend_attribute', u'daughter_attribute', u'fall_patient', u'propose_patient', u'kidnap_patient', u'baby_attribute', u'woo_patient', u'sister_attribute']
+descriptor 11:
+[u'grab_agent', u'pop_agent', u'pull_agent', u'yell_agent', u'lift_agent', u'hit_agent', u'chase_agent', u'try_agent', u'laugh_agent', u'jump_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'teacher_attribute', u'student_attribute', u'character_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'player_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'sweetheart_attribute', u'student_attribute', u'partner_attribute', u'parent_attribute', u'neighbor_attribute', u'member_attribute', u'classmate_attribute']
+descriptor 14:
+[u'single_attribute', u'younger_attribute', u'own_attribute', u'older_attribute', u'live_patient', u'elderly_attribute', u's_attribute', u'twin_attribute', u'elder_attribute', u'attractive_attribute']
+descriptor 15:
+[u'find_agent', u'mother_attribute', u'reply_agent', u'father_attribute', u'speak_agent', u'state_agent', u'explain_agent', u'sit_agent', u'advise_agent', u'mention_agent']
+descriptor 16:
+[u'police_attribute', u'officer_attribute', u'detective_attribute', u'local_attribute', u'cop_attribute', u'corrupt_attribute', u'inspector_attribute', u'german_attribute', u'british_attribute', u'drug_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'gang_attribute', u'murder_agent', u'evil_attribute', u'commit_agent', u'alive_attribute', u'dead_attribute', u'consist_patient', u'visit_patient']
+descriptor 18:
+[u'tell_agent', u'leave_agent', u'explain_agent', u'decline_agent', u'annoy_patient', u'deny_agent', u'worried_attribute', u'next_attribute', u'surprise_patient', u'discuss_agent']
+descriptor 19:
+[u'disarm_patient', u'impale_agent', u'bite_agent', u'impale_patient', u'ambush_agent', u'chase_agent', u'pop_agent', u'attack_agent', u'capture_agent', u'toss_agent']
+descriptor 20:
+[u'arrest_patient', u'hostage_attribute', u'overpower_patient', u'frame_patient', u'ambush_patient', u'wound_patient', u'betray_patient', u'overpower_agent', u'apprehend_patient', u'disarm_patient']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'reunite_patient', u'arrive_patient', u'visit_patient', u'try_agent', u'rescue_patient', u'protect_patient', u'return_patient', u'alive_attribute']
+descriptor 22:
+[u'boss_attribute', u'corrupt_attribute', u'crime_attribute', u'former_attribute', u'gang_attribute', u'local_attribute', u'mob_attribute', u'chief_attribute', u'leader_attribute', u'gangster_attribute']
+descriptor 23:
+[u'go_agent', u'student_attribute', u'high_attribute', u'win_agent', u'school_attribute', u'orphan_attribute', u'college_attribute', u'teach_patient', u'son_attribute', u'grow_agent']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'young_attribute', u'widow_attribute', u'daughter_attribute', u'wife_attribute', u'attractive_attribute', u'pregnant_attribute', u'girl_attribute', u'singer_attribute']
+descriptor 25:
+[u'monster_attribute', u'vampire_attribute', u'evil_attribute', u'destroy_patient', u'alien_attribute', u'several_attribute', u'serial_attribute', u'survivor_attribute', u'zombie_attribute', u'drug_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'mother_attribute', u'wife_attribute', u'parent_attribute', u'ill_attribute', u'live_patient', u'die_agent', u'reunite_patient', u'visit_patient']
+descriptor 27:
+[u'be_agent', u'free_patient', u'rescue_attribute', u'save_patient', u'reunite_patient', u'kidnap_patient', u'keep_patient', u'rescue_patient', u'imprison_patient', u'abandon_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'guy_attribute', u'stranger_attribute']
+descriptor 29:
+[u'mother_attribute', u'brother_attribute', u'sister_attribute', u'father_attribute', u'wife_attribute', u'husband_attribute', u'dead_attribute', u'murder_patient', u'alive_attribute', u'parent_attribute']
+writing trajectories...
+done with epoch:  0  cost = 0.786220894849 time:  1140.36770391
+descriptor 0:
+[u'reconcile_agent', u'reject_agent', u'forgive_agent', u'determine_patient', u'accept_agent', u'impress_agent', u'marry_agent', u'reject_patient', u'heartbroken_attribute', u'earn_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'arrange_agent', u'fail_agent', u'jealous_attribute', u'quit_agent', u'attract_patient', u'perform_agent', u'apologize_agent', u'confess_agent']
+descriptor 2:
+[u'wake_patient', u'pop_agent', u'slam_agent', u'wander_agent', u'climb_agent', u'dive_agent', u'pull_patient', u'crawl_agent', u'awaken_agent', u'appear_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'locate_agent', u'assign_patient', u'agent_attribute', u'deduce_agent', u'police_attribute', u'promote_patient', u'investigator_attribute']
+descriptor 4:
+[u'small_attribute', u'white_attribute', u'other_attribute', u'only_attribute', u'strange_attribute', u'homeless_attribute', u'same_attribute', u'many_attribute', u'black_attribute', u'several_attribute']
+descriptor 5:
+[u'father_attribute', u'boss_attribute', u'wealthy_attribute', u'businessman_attribute', u'owner_attribute', u'uncle_attribute', u'husband_attribute', u'mother_attribute', u'manager_attribute', u'parent_attribute']
+descriptor 6:
+[u'worried_attribute', u'complain_agent', u'worry_patient', u'reassure_patient', u'annoy_patient', u'pack_agent', u'worry_agent', u'frustrated_attribute', u'sure_attribute', u'reply_agent']
+descriptor 7:
+[u'child_attribute', u'boy_attribute', u'baby_attribute', u'raise_patient', u'kid_attribute', u'girl_attribute', u'daughter_attribute', u'son_attribute', u'teach_patient', u'capture_patient']
+descriptor 8:
+[u'son_attribute', u'brother_attribute', u'sister_attribute', u'daughter_attribute', u'child_attribute', u'boy_attribute', u'widow_attribute', u'kid_attribute', u'orphan_attribute', u'parent_attribute']
+descriptor 9:
+[u'take_agent', u'punch_agent', u'approach_agent', u'inform_agent', u'confirm_agent', u'figure_agent', u'overhear_agent', u'warn_agent', u'knock_agent', u'order_attribute']
+descriptor 10:
+[u'girl_attribute', u'beautiful_attribute', u'fall_patient', u'daughter_attribute', u'girlfriend_attribute', u'propose_patient', u'woo_patient', u'marry_patient', u'kidnap_patient', u'love_patient']
+descriptor 11:
+[u'grab_agent', u'pop_agent', u'try_agent', u'pull_agent', u'yell_agent', u'lift_agent', u'chase_agent', u'hit_agent', u'jump_agent', u'laugh_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'teacher_attribute', u'character_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'player_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'sweetheart_attribute', u'girlfriend_attribute', u'student_attribute', u'high_attribute', u'neighbor_attribute', u'teacher_attribute', u'partner_attribute', u'classmate_attribute']
+descriptor 14:
+[u'younger_attribute', u'twin_attribute', u'own_attribute', u'live_patient', u'single_attribute', u'older_attribute', u'teenage_attribute', u'elder_attribute', u's_attribute', u'eldest_attribute']
+descriptor 15:
+[u'find_agent', u'reply_agent', u'speak_agent', u'horrify_patient', u'sit_agent', u'advise_agent', u'detective_attribute', u'smile_agent', u'express_agent', u'mother_attribute']
+descriptor 16:
+[u'police_attribute', u'officer_attribute', u'local_attribute', u'detective_attribute', u'cop_attribute', u'soldier_attribute', u'drug_attribute', u'inspector_attribute', u'corrupt_attribute', u'german_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'murder_agent', u'gang_attribute', u'commit_agent', u'evil_attribute', u'alive_attribute', u'strangle_agent', u'die_agent', u'visit_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'explain_agent', u'worried_attribute', u'decline_agent', u'next_attribute', u'shock_patient', u'deny_agent', u'surprise_patient', u'reply_agent']
+descriptor 19:
+[u'pop_agent', u'bite_agent', u'grab_agent', u'chase_agent', u'toss_agent', u'slam_agent', u'tie_agent', u'disarm_patient', u'launch_patient', u'impale_agent']
+descriptor 20:
+[u'frame_patient', u'arrest_patient', u'travel_attribute', u'wound_patient', u'overpower_patient', u'hostage_attribute', u'ambush_patient', u'sentence_patient', u'betray_patient', u'shoot_patient']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'reunite_patient', u'arrive_patient', u'visit_patient', u'arrive_agent', u'call_patient', u'rescue_patient', u'protect_patient', u'reveal_patient']
+descriptor 22:
+[u'boss_attribute', u'former_attribute', u'crime_attribute', u'local_attribute', u'corrupt_attribute', u'gang_attribute', u'chief_attribute', u'mob_attribute', u'powerful_attribute', u'drug_attribute']
+descriptor 23:
+[u'go_agent', u'gain_agent', u'sentence_patient', u'end_agent', u'defeat_agent', u'send_patient', u'win_agent', u'student_attribute', u'beat_patient', u'crash_agent']
+descriptor 24:
+[u'beautiful_attribute', u'young_attribute', u'woman_attribute', u'widow_attribute', u'wife_attribute', u'attractive_attribute', u'pregnant_attribute', u'daughter_attribute', u'rape_patient', u'singer_attribute']
+descriptor 25:
+[u'monster_attribute', u'vampire_attribute', u'evil_attribute', u'alien_attribute', u'serial_attribute', u'destroy_patient', u'defeat_patient', u'drug_attribute', u'zombie_attribute', u'henchman_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'wife_attribute', u'mother_attribute', u'parent_attribute', u'assure_agent', u'assure_patient', u'explain_agent', u'discover_agent', u'daughter_attribute']
+descriptor 27:
+[u'be_agent', u'free_patient', u'save_patient', u'rescue_attribute', u'reunite_patient', u'abandon_patient', u'keep_patient', u'raise_patient', u'imprison_patient', u'kidnap_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'student_attribute', u'person_attribute', u'character_attribute']
+descriptor 29:
+[u'mother_attribute', u'sister_attribute', u'wife_attribute', u'brother_attribute', u'parent_attribute', u'father_attribute', u'husband_attribute', u'grandmother_attribute', u'baby_attribute', u'child_attribute']
+writing trajectories...
+done with epoch:  1  cost = 0.775617452284 time:  1249.485466
+descriptor 0:
+[u'determine_patient', u'reconcile_agent', u'earn_agent', u'reject_agent', u'impress_agent', u'marry_agent', u'accept_agent', u'accept_patient', u'forgive_agent', u'reject_patient']
+descriptor 1:
+[u'have_agent', u'arrange_agent', u'forgive_patient', u'apologize_agent', u'perform_agent', u'buy_agent', u'quit_agent', u'worry_patient', u'fail_agent', u'assure_agent']
+descriptor 2:
+[u'pop_agent', u'wake_patient', u'slam_agent', u'crawl_agent', u'dive_agent', u'wander_agent', u'climb_agent', u'pull_patient', u'awaken_agent', u'appear_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'locate_agent', u'deduce_agent', u'assign_patient', u'agent_attribute', u'investigator_attribute', u'police_attribute', u'ambush_patient']
+descriptor 4:
+[u'white_attribute', u'small_attribute', u'young_attribute', u'strange_attribute', u'homeless_attribute', u'same_attribute', u'only_attribute', u'other_attribute', u'mysterious_attribute', u'teenage_attribute']
+descriptor 5:
+[u'father_attribute', u'boss_attribute', u'wealthy_attribute', u'businessman_attribute', u'owner_attribute', u'uncle_attribute', u'husband_attribute', u'manager_attribute', u'mother_attribute', u'rich_attribute']
+descriptor 6:
+[u'worried_attribute', u'complain_agent', u'worry_patient', u'reassure_patient', u'pack_agent', u'frustrated_attribute', u'worry_agent', u'sure_attribute', u'annoy_patient', u'upset_patient']
+descriptor 7:
+[u'child_attribute', u'boy_attribute', u'baby_attribute', u'leave_agent', u'raise_patient', u'girl_attribute', u'daughter_attribute', u'return_patient', u'kid_attribute', u'capture_patient']
+descriptor 8:
+[u'son_attribute', u'brother_attribute', u'daughter_attribute', u'child_attribute', u'sister_attribute', u'boy_attribute', u'orphan_attribute', u'kid_attribute', u'girl_attribute', u'student_attribute']
+descriptor 9:
+[u'take_agent', u'punch_agent', u'overhear_agent', u'confirm_agent', u'inform_agent', u'figure_agent', u'approach_agent', u'accuse_agent', u'warn_agent', u'knock_agent']
+descriptor 10:
+[u'beautiful_attribute', u'girl_attribute', u'daughter_attribute', u'girlfriend_attribute', u'fall_patient', u'propose_patient', u'baby_attribute', u'woo_patient', u'teenage_attribute', u'sister_attribute']
+descriptor 11:
+[u'grab_agent', u'try_agent', u'pop_agent', u'chase_agent', u'pull_agent', u'lift_agent', u'yell_agent', u'hit_agent', u'jump_agent', u'fire_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'teacher_attribute', u'character_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'player_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'sweetheart_attribute', u'student_attribute', u'high_attribute', u'neighbor_attribute', u'guy_attribute', u'parent_attribute', u'kid_attribute']
+descriptor 14:
+[u'twin_attribute', u'younger_attribute', u'own_attribute', u'single_attribute', u'live_patient', u'older_attribute', u'elder_attribute', u'teenage_attribute', u'bear_patient', u'eldest_attribute']
+descriptor 15:
+[u'find_agent', u'horrify_patient', u'detective_attribute', u'encounter_agent', u'attend_agent', u'smile_agent', u'reply_agent', u'convince_patient', u'spot_agent', u'offer_patient']
+descriptor 16:
+[u'police_attribute', u'officer_attribute', u'local_attribute', u'cop_attribute', u'detective_attribute', u'drug_attribute', u'soldier_attribute', u'mysterious_attribute', u'german_attribute', u'corrupt_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'alive_attribute', u'commit_agent', u'murder_agent', u'die_agent', u'dead_attribute', u'evil_attribute', u'visit_patient', u'strangle_agent']
+descriptor 18:
+[u'tell_agent', u'decline_agent', u'annoy_patient', u'explain_agent', u'shock_patient', u'surprise_patient', u'deny_agent', u'worried_attribute', u'next_attribute', u'assure_patient']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'bite_agent', u'toss_agent', u'chase_agent', u'slam_agent', u'tie_agent', u'drag_agent', u'launch_patient', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'arrest_patient', u'frame_patient', u'shoot_patient', u'sentence_patient', u'travel_attribute', u'wound_patient', u'dead_attribute', u'hostage_attribute', u'overpower_patient']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'reunite_patient', u'arrive_agent', u'arrive_patient', u'call_patient', u'visit_patient', u'suspicious_attribute', u'reveal_patient', u'there_attribute']
+descriptor 22:
+[u'boss_attribute', u'former_attribute', u'crime_attribute', u'local_attribute', u'corrupt_attribute', u'gang_attribute', u'mob_attribute', u'powerful_attribute', u'new_attribute', u'serial_attribute']
+descriptor 23:
+[u'go_agent', u'hit_agent', u'chase_agent', u'gain_agent', u'beat_agent', u'throw_agent', u'grab_agent', u'head_agent', u'send_patient', u'beat_patient']
+descriptor 24:
+[u'beautiful_attribute', u'young_attribute', u'woman_attribute', u'widow_attribute', u'attractive_attribute', u'wife_attribute', u'pregnant_attribute', u'daughter_attribute', u'singer_attribute', u'rape_patient']
+descriptor 25:
+[u'monster_attribute', u'vampire_attribute', u'alien_attribute', u'evil_attribute', u'serial_attribute', u'drug_attribute', u'defeat_patient', u'zombie_attribute', u'henchman_attribute', u'assassin_attribute']
+descriptor 26:
+[u'tell_patient', u'take_patient', u'assure_agent', u'surprise_patient', u'mother_attribute', u'wife_attribute', u'explain_agent', u'give_agent', u'assure_patient', u'summon_patient']
+descriptor 27:
+[u'be_agent', u'free_patient', u'reunite_patient', u'rescue_attribute', u'save_patient', u'abandon_patient', u'raise_patient', u'keep_patient', u'imprison_patient', u'apologize_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'student_attribute', u'member_attribute', u'person_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'sister_attribute', u'parent_attribute', u'brother_attribute', u'father_attribute', u'baby_attribute', u'child_attribute', u'grandmother_attribute', u'husband_attribute']
+writing trajectories...
+done with epoch:  2  cost = 0.77211905877 time:  1163.33738494
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'accept_patient', u'marry_agent', u'impress_agent', u'reject_agent', u'reconcile_agent', u'win_agent', u'accept_agent', u'lose_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'apologize_agent', u'worry_patient', u'perform_agent', u'buy_agent', u'quit_agent', u'fail_agent', u'upset_patient', u'arrange_agent']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'wake_patient', u'crawl_agent', u'dive_agent', u'pull_patient', u'wander_agent', u'climb_agent', u'launch_patient', u'lift_agent']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'deduce_agent', u'investigator_attribute', u'locate_agent', u'agent_attribute', u'police_attribute', u'assign_patient', u'ambush_patient']
+descriptor 4:
+[u'young_attribute', u'small_attribute', u'white_attribute', u'other_attribute', u'only_attribute', u'teenage_attribute', u'mysterious_attribute', u'strange_attribute', u'little_attribute', u'homeless_attribute']
+descriptor 5:
+[u'boss_attribute', u'father_attribute', u'wealthy_attribute', u'businessman_attribute', u'owner_attribute', u'uncle_attribute', u'manager_attribute', u'partner_attribute', u'husband_attribute', u'business_attribute']
+descriptor 6:
+[u'worried_attribute', u'worry_patient', u'complain_agent', u'reassure_patient', u'pack_agent', u'worry_agent', u'frustrated_attribute', u'sure_attribute', u'annoy_patient', u'upset_patient']
+descriptor 7:
+[u'child_attribute', u'leave_agent', u'boy_attribute', u'baby_attribute', u'return_patient', u'girl_attribute', u'raise_patient', u'daughter_attribute', u'capture_patient', u'kid_attribute']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'sister_attribute', u'boy_attribute', u'orphan_attribute', u'girl_attribute', u'kid_attribute', u'baby_attribute']
+descriptor 9:
+[u'take_agent', u'inform_agent', u'overhear_agent', u'approach_agent', u'confirm_agent', u'punch_agent', u'figure_agent', u'warn_agent', u'order_patient', u'examine_agent']
+descriptor 10:
+[u'beautiful_attribute', u'girl_attribute', u'daughter_attribute', u'baby_attribute', u'girlfriend_attribute', u'teenage_attribute', u'fall_patient', u'propose_patient', u'woo_patient', u'sister_attribute']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'pop_agent', u'chase_agent', u'pull_agent', u'lift_agent', u'hit_agent', u'yell_agent', u'jump_agent', u'slam_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'teacher_attribute', u'character_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'sweetheart_attribute', u'student_attribute', u'high_attribute', u'neighbor_attribute', u'guy_attribute', u'best_attribute', u'parent_attribute']
+descriptor 14:
+[u'twin_attribute', u'younger_attribute', u'own_attribute', u'elder_attribute', u'live_patient', u'teenage_attribute', u'older_attribute', u'baby_attribute', u'single_attribute', u'bear_patient']
+descriptor 15:
+[u'find_agent', u'horrify_patient', u'convince_patient', u'attend_agent', u'encounter_agent', u'detective_attribute', u'offer_patient', u'smile_agent', u'able_attribute', u'assign_patient']
+descriptor 16:
+[u'police_attribute', u'officer_attribute', u'local_attribute', u'cop_attribute', u'drug_attribute', u'detective_attribute', u'soldier_attribute', u'mysterious_attribute', u'man_attribute', u'dealer_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'commit_agent', u'evil_attribute', u'free_patient', u'alive_attribute', u'escape_patient', u'die_agent', u'murder_agent', u'visit_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'explain_agent', u'decline_agent', u'deny_agent', u'shock_patient', u'worried_attribute', u'next_attribute', u'walk_patient', u'write_patient']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'toss_agent', u'slam_agent', u'bite_agent', u'chase_agent', u'lift_agent', u'drag_agent', u'tie_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'arrest_patient', u'shoot_patient', u'frame_patient', u'dead_attribute', u'sentence_patient', u'hang_patient', u'out_attribute', u'suspect_patient', u'hostage_attribute']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'reunite_patient', u'arrive_agent', u'arrive_patient', u'rescue_patient', u'call_patient', u'kidnap_patient', u'reveal_patient', u'believe_patient']
+descriptor 22:
+[u'former_attribute', u'boss_attribute', u'local_attribute', u'crime_attribute', u'corrupt_attribute', u'gang_attribute', u'new_attribute', u'powerful_attribute', u'mob_attribute', u'business_attribute']
+descriptor 23:
+[u'go_agent', u'hit_agent', u'grab_agent', u'chase_agent', u'head_agent', u'pop_agent', u'throw_agent', u'taunt_patient', u'slam_agent', u'hit_patient']
+descriptor 24:
+[u'beautiful_attribute', u'young_attribute', u'woman_attribute', u'attractive_attribute', u'widow_attribute', u'wife_attribute', u'pregnant_attribute', u'daughter_attribute', u'singer_attribute', u'rape_patient']
+descriptor 25:
+[u'monster_attribute', u'vampire_attribute', u'alien_attribute', u'serial_attribute', u'evil_attribute', u'drug_attribute', u'henchman_attribute', u'zombie_attribute', u'ambush_agent', u'defeat_patient']
+descriptor 26:
+[u'tell_patient', u'take_patient', u'surprise_patient', u'assure_agent', u'give_agent', u'explain_agent', u'mother_attribute', u'summon_patient', u'assure_patient', u'wife_attribute']
+descriptor 27:
+[u'be_agent', u'free_patient', u'reunite_patient', u'rescue_attribute', u'save_patient', u'abandon_patient', u'raise_patient', u'imprison_patient', u'defeat_agent', u'capture_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'student_attribute', u'member_attribute', u'person_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'sister_attribute', u'parent_attribute', u'father_attribute', u'brother_attribute', u'baby_attribute', u'child_attribute', u'grandmother_attribute', u'husband_attribute']
+writing trajectories...
+done with epoch:  3  cost = 0.770042476529 time:  1174.27158999
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'marry_agent', u'accept_patient', u'impress_agent', u'win_agent', u'reconcile_agent', u'reject_agent', u'accept_agent', u'lose_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'apologize_agent', u'worry_patient', u'buy_agent', u'quit_agent', u'perform_agent', u'upset_patient', u'flirt_patient', u'fail_agent']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'crawl_agent', u'dive_agent', u'wake_patient', u'pull_patient', u'climb_agent', u'launch_patient', u'wander_agent', u'lift_agent']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'agent_attribute', u'investigator_attribute', u'deduce_agent', u'locate_agent', u'assign_patient', u'undercover_attribute']
+descriptor 4:
+[u'young_attribute', u'small_attribute', u'white_attribute', u'teenage_attribute', u'other_attribute', u'only_attribute', u'little_attribute', u'mysterious_attribute', u'many_attribute', u'strange_attribute']
+descriptor 5:
+[u'boss_attribute', u'father_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'uncle_attribute', u'partner_attribute', u'husband_attribute', u'manager_attribute', u'business_attribute']
+descriptor 6:
+[u'worried_attribute', u'complain_agent', u'reassure_patient', u'pack_agent', u'worry_patient', u'worry_agent', u'sure_attribute', u'frustrated_attribute', u'upset_attribute', u'upset_patient']
+descriptor 7:
+[u'leave_agent', u'child_attribute', u'boy_attribute', u'return_patient', u'girl_attribute', u'baby_attribute', u'school_attribute', u'daughter_attribute', u'kid_attribute', u'raise_patient']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'orphan_attribute', u'kid_attribute', u'baby_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'confirm_agent', u'punch_agent', u'inform_agent', u'regret_agent', u'approach_agent', u'warn_patient', u'figure_agent', u'examine_agent']
+descriptor 10:
+[u'beautiful_attribute', u'girl_attribute', u'daughter_attribute', u'baby_attribute', u'teenage_attribute', u'girlfriend_attribute', u'sister_attribute', u'little_attribute', u'attractive_attribute', u'fall_patient']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'pop_agent', u'chase_agent', u'pull_agent', u'lift_agent', u'hit_agent', u'yell_agent', u'fire_agent', u'jump_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'teacher_attribute', u'character_attribute', u'main_attribute', u'fellow_attribute', u'player_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'sweetheart_attribute', u'student_attribute', u'neighbor_attribute', u'parent_attribute', u'high_attribute', u'guy_attribute', u'kid_attribute']
+descriptor 14:
+[u'twin_attribute', u'younger_attribute', u'own_attribute', u'older_attribute', u'elder_attribute', u'live_patient', u'single_attribute', u'teenage_attribute', u'baby_attribute', u'bear_patient']
+descriptor 15:
+[u'find_agent', u'detective_attribute', u'convince_patient', u'horrify_patient', u'spot_agent', u'prepare_agent', u'private_attribute', u'attend_agent', u'suspend_patient', u'assign_patient']
+descriptor 16:
+[u'police_attribute', u'officer_attribute', u'local_attribute', u'cop_attribute', u'detective_attribute', u'drug_attribute', u'soldier_attribute', u'guard_attribute', u'dealer_attribute', u'man_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'commit_agent', u'live_patient', u'murder_agent', u'die_agent', u'alive_attribute', u'gang_attribute', u'escape_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'decline_agent', u'explain_agent', u'deny_agent', u'shock_patient', u'surprise_patient', u'worried_attribute', u'next_attribute', u'late_attribute']
+descriptor 19:
+[u'grab_agent', u'pop_agent', u'slam_agent', u'toss_agent', u'chase_agent', u'bite_agent', u'pull_agent', u'lift_agent', u'drag_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'arrest_patient', u'dead_attribute', u'shoot_patient', u'sentence_patient', u'frame_patient', u'threaten_agent', u'out_attribute', u'suspect_patient', u'visit_attribute']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'reunite_patient', u'rescue_patient', u'kidnap_patient', u'arrive_patient', u'arrive_agent', u'there_attribute', u'call_patient', u'bring_patient']
+descriptor 22:
+[u'former_attribute', u'boss_attribute', u'crime_attribute', u'local_attribute', u'mob_attribute', u'corrupt_attribute', u'powerful_attribute', u'hire_agent', u'gang_attribute', u'abusive_attribute']
+descriptor 23:
+[u'go_agent', u'grab_agent', u'hit_agent', u'head_agent', u'chase_agent', u'taunt_patient', u'wake_patient', u'pop_agent', u'sure_attribute', u'drunk_attribute']
+descriptor 24:
+[u'beautiful_attribute', u'young_attribute', u'woman_attribute', u'widow_attribute', u'attractive_attribute', u'wife_attribute', u'daughter_attribute', u'pregnant_attribute', u'singer_attribute', u'propose_patient']
+descriptor 25:
+[u'monster_attribute', u'vampire_attribute', u'evil_attribute', u'alien_attribute', u'serial_attribute', u'drug_attribute', u'dealer_attribute', u'ambush_agent', u'zombie_attribute', u'henchman_attribute']
+descriptor 26:
+[u'tell_patient', u'take_patient', u'surprise_patient', u'assure_agent', u'explain_agent', u'give_agent', u'deny_agent', u'note_agent', u'mother_attribute', u'assure_patient']
+descriptor 27:
+[u'be_agent', u'free_patient', u'reunite_patient', u'rescue_attribute', u'save_patient', u'abandon_patient', u'raise_patient', u'imprison_patient', u'king_attribute', u'defeat_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'student_attribute', u'person_attribute', u'kid_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'sister_attribute', u'parent_attribute', u'father_attribute', u'brother_attribute', u'child_attribute', u'grandmother_attribute', u'husband_attribute', u'baby_attribute']
+writing trajectories...
+done with epoch:  4  cost = 0.768335021332 time:  1180.18878007
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'accept_patient', u'lose_agent', u'impress_agent', u'succeed_agent', u'marry_agent', u'reconcile_agent', u'reject_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'worry_patient', u'apologize_agent', u'perform_agent', u'buy_agent', u'fail_agent', u'quit_agent', u'arrange_agent', u'approach_patient']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'crawl_agent', u'dive_agent', u'wake_patient', u'pull_patient', u'launch_patient', u'climb_agent', u'wander_agent', u'unconscious_attribute']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'undercover_attribute', u'assign_patient', u'locate_agent']
+descriptor 4:
+[u'young_attribute', u'white_attribute', u'small_attribute', u'other_attribute', u'teenage_attribute', u'little_attribute', u'only_attribute', u'mysterious_attribute', u'old_attribute', u'strange_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'father_attribute', u'owner_attribute', u'businessman_attribute', u'uncle_attribute', u'manager_attribute', u'business_attribute', u'husband_attribute', u'partner_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'worry_patient', u'pack_agent', u'complain_agent', u'worry_agent', u'sure_attribute', u'upset_attribute', u'upset_patient', u'surprised_attribute']
+descriptor 7:
+[u'leave_agent', u'child_attribute', u'boy_attribute', u'return_patient', u'girl_attribute', u'baby_attribute', u'school_attribute', u'give_patient', u'eat_agent', u'kid_attribute']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'orphan_attribute', u'kid_attribute', u'baby_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'punch_agent', u'approach_agent', u'figure_agent', u'confirm_agent', u'inform_agent', u'warn_patient', u'examine_agent', u'break_attribute']
+descriptor 10:
+[u'beautiful_attribute', u'girl_attribute', u'baby_attribute', u'daughter_attribute', u'teenage_attribute', u'sister_attribute', u'girlfriend_attribute', u'little_attribute', u'attractive_attribute', u'dancer_attribute']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'pop_agent', u'chase_agent', u'pull_agent', u'lift_agent', u'yell_agent', u'hit_agent', u'fire_agent', u'toss_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'teacher_attribute', u'student_attribute', u'character_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'sweetheart_attribute', u'student_attribute', u'neighbor_attribute', u'high_attribute', u'guy_attribute', u'kid_attribute', u'parent_attribute']
+descriptor 14:
+[u'twin_attribute', u'younger_attribute', u'own_attribute', u'older_attribute', u'elder_attribute', u'family_attribute', u'single_attribute', u'teenage_attribute', u'live_patient', u'only_attribute']
+descriptor 15:
+[u'find_agent', u'horrify_patient', u'spot_agent', u'convince_patient', u'able_attribute', u'detective_attribute', u'encounter_agent', u'prepare_agent', u'panic_agent', u'attend_agent']
+descriptor 16:
+[u'police_attribute', u'officer_attribute', u'local_attribute', u'cop_attribute', u'drug_attribute', u'detective_attribute', u'soldier_attribute', u'killer_attribute', u'man_attribute', u'guard_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'escape_patient', u'commit_agent', u'free_patient', u'gang_attribute', u'murder_agent', u'alive_attribute', u'die_agent']
+descriptor 18:
+[u'tell_agent', u'decline_agent', u'shock_patient', u'annoy_patient', u'surprise_patient', u'deny_agent', u'explain_agent', u'next_attribute', u'assure_patient', u'worried_attribute']
+descriptor 19:
+[u'grab_agent', u'pop_agent', u'slam_agent', u'toss_agent', u'pull_agent', u'chase_agent', u'lift_agent', u'bite_agent', u'yell_agent', u'drag_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'arrest_patient', u'shoot_patient', u'threaten_agent', u'sentence_patient', u'suspect_patient', u'frame_patient', u'out_attribute', u'innocent_attribute']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'reunite_patient', u'rescue_patient', u'kidnap_patient', u'arrive_patient', u'there_attribute', u'arrive_agent', u'come_patient', u'love_patient']
+descriptor 22:
+[u'former_attribute', u'boss_attribute', u'crime_attribute', u'local_attribute', u'hire_agent', u'mob_attribute', u'abusive_attribute', u'powerful_attribute', u'own_attribute', u'work_patient']
+descriptor 23:
+[u'go_agent', u'grab_agent', u'head_agent', u'hit_agent', u'taunt_patient', u'chase_agent', u'pop_agent', u'wake_patient', u'spot_agent', u'sure_attribute']
+descriptor 24:
+[u'beautiful_attribute', u'young_attribute', u'woman_attribute', u'attractive_attribute', u'widow_attribute', u'wife_attribute', u'pregnant_attribute', u'daughter_attribute', u'singer_attribute', u'propose_patient']
+descriptor 25:
+[u'monster_attribute', u'vampire_attribute', u'serial_attribute', u'alien_attribute', u'drug_attribute', u'evil_attribute', u'ambush_agent', u'dealer_attribute', u'henchman_attribute', u'zombie_attribute']
+descriptor 26:
+[u'tell_patient', u'take_patient', u'surprise_patient', u'assure_agent', u'mother_attribute', u'give_agent', u'explain_agent', u'wife_attribute', u'deny_agent', u'assure_patient']
+descriptor 27:
+[u'be_agent', u'free_patient', u'reunite_patient', u'rescue_attribute', u'save_patient', u'imprison_patient', u'abandon_patient', u'defeat_agent', u'capture_patient', u'raise_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'student_attribute', u'member_attribute', u'widow_attribute', u'person_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'sister_attribute', u'parent_attribute', u'father_attribute', u'brother_attribute', u'grandmother_attribute', u'husband_attribute', u'child_attribute', u'live_patient']
+writing trajectories...
+done with epoch:  5  cost = 0.7678509272 time:  1172.9088819
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'accept_patient', u'marry_agent', u'succeed_agent', u'lose_agent', u'impress_agent', u'successful_attribute', u'reconcile_agent']
+descriptor 1:
+[u'have_agent', u'perform_agent', u'forgive_patient', u'quit_agent', u'apologize_agent', u'worry_patient', u'buy_agent', u'fail_agent', u'arrange_agent', u'devastate_patient']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'crawl_agent', u'dive_agent', u'pull_patient', u'wake_patient', u'launch_patient', u'wander_agent', u'climb_agent', u'unconscious_attribute']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'investigator_attribute', u'police_attribute', u'agent_attribute', u'deduce_agent', u'locate_agent', u'undercover_attribute', u'assign_patient']
+descriptor 4:
+[u'young_attribute', u'white_attribute', u'mysterious_attribute', u'small_attribute', u'other_attribute', u'strange_attribute', u'old_attribute', u'little_attribute', u'teenage_attribute', u'same_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'father_attribute', u'uncle_attribute', u'partner_attribute', u'business_attribute', u'manager_attribute', u'husband_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'worry_patient', u'complain_agent', u'worry_agent', u'sure_attribute', u'upset_attribute', u'upset_patient', u'surprised_attribute']
+descriptor 7:
+[u'leave_agent', u'child_attribute', u'boy_attribute', u'return_patient', u'school_attribute', u'girl_attribute', u'high_attribute', u'capture_patient', u'give_patient', u'sing_agent']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'inform_agent', u'punch_agent', u'confirm_agent', u'figure_agent', u'warn_patient', u'warn_agent', u'reveal_patient']
+descriptor 10:
+[u'girl_attribute', u'beautiful_attribute', u'baby_attribute', u'daughter_attribute', u'teenage_attribute', u'sister_attribute', u'girlfriend_attribute', u'little_attribute', u'attractive_attribute', u'lady_attribute']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'pop_agent', u'chase_agent', u'lift_agent', u'pull_agent', u'yell_agent', u'hit_agent', u'fire_agent', u'toss_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'teacher_attribute', u'character_attribute', u'student_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'sweetheart_attribute', u'student_attribute', u'high_attribute', u'neighbor_attribute', u'guy_attribute', u'parent_attribute', u'kid_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'older_attribute', u'family_attribute', u'single_attribute', u'elder_attribute', u'live_patient', u'teenage_attribute', u'bear_patient']
+descriptor 15:
+[u'find_agent', u'convince_patient', u'attend_agent', u'horrify_patient', u'offer_patient', u'able_attribute', u'detective_attribute', u'encounter_agent', u'approach_patient', u'spot_agent']
+descriptor 16:
+[u'police_attribute', u'officer_attribute', u'local_attribute', u'cop_attribute', u'detective_attribute', u'man_attribute', u'drug_attribute', u'killer_attribute', u'guard_attribute', u'be_agent']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'commit_agent', u'evil_attribute', u'gang_attribute', u'new_attribute', u'escape_patient', u'die_agent', u'murder_agent', u'consist_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'deny_agent', u'shock_patient', u'explain_agent', u'decline_agent', u'late_attribute', u'worried_attribute', u'surprise_patient', u'worry_patient']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'pull_agent', u'lift_agent', u'yell_agent', u'toss_agent', u'chase_agent', u'grab_patient', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'arrest_patient', u'shoot_patient', u'threaten_agent', u'murder_patient', u'sentence_patient', u'frame_patient', u'suspect_patient', u'out_attribute']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'reunite_patient', u'rescue_patient', u'kidnap_patient', u'arrive_patient', u'there_attribute', u'save_patient', u'rescue_attribute', u'love_patient']
+descriptor 22:
+[u'former_attribute', u'boss_attribute', u'crime_attribute', u'local_attribute', u'own_attribute', u'hire_agent', u'abusive_attribute', u'mob_attribute', u'murder_patient', u'murder_agent']
+descriptor 23:
+[u'go_agent', u'head_agent', u'grab_agent', u'hit_agent', u'warn_patient', u'sure_attribute', u'taunt_patient', u'chase_agent', u'drunk_attribute', u'throw_agent']
+descriptor 24:
+[u'beautiful_attribute', u'young_attribute', u'woman_attribute', u'attractive_attribute', u'widow_attribute', u'wife_attribute', u'pregnant_attribute', u'propose_patient', u'daughter_attribute', u'singer_attribute']
+descriptor 25:
+[u'vampire_attribute', u'monster_attribute', u'serial_attribute', u'alien_attribute', u'drug_attribute', u'evil_attribute', u'ambush_agent', u'dealer_attribute', u'zombie_attribute', u'henchman_attribute']
+descriptor 26:
+[u'tell_patient', u'take_patient', u'surprise_patient', u'explain_agent', u'assure_agent', u'give_agent', u'deny_agent', u'note_agent', u'detective_attribute', u'summon_patient']
+descriptor 27:
+[u'be_agent', u'free_patient', u'reunite_patient', u'rescue_attribute', u'save_patient', u'abandon_patient', u'imprison_patient', u'raise_patient', u'capture_patient', u'rescue_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'student_attribute', u'person_attribute', u'widow_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'sister_attribute', u'father_attribute', u'parent_attribute', u'brother_attribute', u'child_attribute', u'husband_attribute', u'grandmother_attribute', u'baby_attribute']
+writing trajectories...
+done with epoch:  6  cost = 0.766774168486 time:  1181.56603003
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'accept_patient', u'marry_agent', u'succeed_agent', u'successful_attribute', u'lose_agent', u'impress_agent', u'sentence_patient']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'perform_agent', u'apologize_agent', u'worry_patient', u'flirt_patient', u'quit_agent', u'devastate_patient', u'upset_patient', u'arrange_agent']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'crawl_agent', u'dive_agent', u'wake_patient', u'pull_patient', u'awaken_agent', u'wander_agent', u'launch_patient', u'unconscious_attribute']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'undercover_attribute', u'locate_agent', u'assign_patient']
+descriptor 4:
+[u'young_attribute', u'white_attribute', u'mysterious_attribute', u'other_attribute', u'small_attribute', u'old_attribute', u'strange_attribute', u'little_attribute', u'teenage_attribute', u'same_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'father_attribute', u'uncle_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'rich_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'worry_patient', u'worry_agent', u'sure_attribute', u'complain_agent', u'upset_attribute', u'surprised_attribute', u'upset_patient']
+descriptor 7:
+[u'leave_agent', u'boy_attribute', u'child_attribute', u'school_attribute', u'girl_attribute', u'return_patient', u'high_attribute', u'member_attribute', u'sing_agent', u'give_patient']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'inform_agent', u'confirm_agent', u'punch_agent', u'figure_agent', u'accuse_agent', u'regret_agent', u'examine_agent']
+descriptor 10:
+[u'girl_attribute', u'beautiful_attribute', u'baby_attribute', u'daughter_attribute', u'teenage_attribute', u'sister_attribute', u'girlfriend_attribute', u'little_attribute', u'orphan_attribute', u'propose_patient']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'pop_agent', u'chase_agent', u'lift_agent', u'pull_agent', u'toss_agent', u'drag_agent', u'fire_agent', u'yell_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'teacher_attribute', u'character_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'sweetheart_attribute', u'student_attribute', u'high_attribute', u'neighbor_attribute', u'member_attribute', u'parent_attribute', u'teacher_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'older_attribute', u'live_patient', u'baby_attribute', u'single_attribute', u'elder_attribute', u'teenage_attribute', u'family_attribute']
+descriptor 15:
+[u'find_agent', u'horrify_patient', u'spot_agent', u'encounter_agent', u'attend_agent', u'convince_patient', u'panic_agent', u'detective_attribute', u'able_attribute', u'approach_patient']
+descriptor 16:
+[u'police_attribute', u'officer_attribute', u'local_attribute', u'man_attribute', u'cop_attribute', u'be_agent', u'detective_attribute', u'drug_attribute', u'killer_attribute', u'soldier_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'commit_agent', u'escape_patient', u'die_agent', u'murder_agent', u'gang_attribute', u'free_patient', u'consist_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'shock_patient', u'decline_agent', u'deny_agent', u'explain_agent', u'surprise_patient', u'late_attribute', u'next_attribute', u'confirm_agent']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'pull_agent', u'lift_agent', u'yell_agent', u'chase_agent', u'toss_agent', u'hit_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'shoot_patient', u'arrest_patient', u'threaten_agent', u'stab_patient', u'suspect_patient', u'out_attribute', u'late_attribute', u'alive_attribute']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'reunite_patient', u'rescue_patient', u'kidnap_patient', u'arrive_patient', u'arrive_agent', u'save_patient', u'there_attribute', u'capture_patient']
+descriptor 22:
+[u'former_attribute', u'boss_attribute', u'crime_attribute', u'local_attribute', u'own_attribute', u'hire_agent', u'mob_attribute', u'abusive_attribute', u'murder_patient', u'murder_agent']
+descriptor 23:
+[u'go_agent', u'grab_agent', u'head_agent', u'warn_patient', u'taunt_patient', u'sure_attribute', u'chase_agent', u'hit_agent', u'spot_agent', u'surprise_patient']
+descriptor 24:
+[u'beautiful_attribute', u'young_attribute', u'woman_attribute', u'attractive_attribute', u'widow_attribute', u'wife_attribute', u'pregnant_attribute', u'propose_patient', u'daughter_attribute', u'attract_patient']
+descriptor 25:
+[u'monster_attribute', u'vampire_attribute', u'serial_attribute', u'alien_attribute', u'drug_attribute', u'evil_attribute', u'ambush_agent', u'dealer_attribute', u'zombie_attribute', u'henchman_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'surprise_patient', u'assure_agent', u'explain_agent', u'give_agent', u'detective_attribute', u'note_agent', u'deny_agent', u'shock_patient']
+descriptor 27:
+[u'be_agent', u'free_patient', u'rescue_attribute', u'reunite_patient', u'imprison_patient', u'save_patient', u'defeat_agent', u'capture_patient', u'abandon_patient', u'rescue_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'student_attribute', u'person_attribute', u'kid_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'child_attribute', u'husband_attribute', u'grandmother_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  7  cost = 0.766309072352 time:  1184.33773494
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'succeed_agent', u'accept_patient', u'successful_attribute', u'lose_agent', u'marry_agent', u'impress_agent', u'sentence_patient']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'worry_patient', u'perform_agent', u'apologize_agent', u'flirt_patient', u'devastate_patient', u'upset_patient', u'buy_agent', u'quit_agent']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'crawl_agent', u'dive_agent', u'launch_patient', u'pull_patient', u'unconscious_attribute', u'wake_patient', u'climb_agent', u'lift_agent']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'police_attribute', u'investigate_agent', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'undercover_attribute', u'assign_patient', u'track_agent']
+descriptor 4:
+[u'young_attribute', u'white_attribute', u'mysterious_attribute', u'old_attribute', u'other_attribute', u'strange_attribute', u'small_attribute', u'little_attribute', u'same_attribute', u'teenage_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'father_attribute', u'business_attribute', u'uncle_attribute', u'partner_attribute', u'manager_attribute', u'rich_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'worry_patient', u'pack_agent', u'worry_agent', u'sure_attribute', u'complain_agent', u'upset_attribute', u'surprised_attribute', u'upset_patient']
+descriptor 7:
+[u'leave_agent', u'boy_attribute', u'child_attribute', u'school_attribute', u'sing_agent', u'eat_agent', u'reply_agent', u'girl_attribute', u'return_patient', u'high_attribute']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'kid_attribute', u'baby_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'confirm_agent', u'punch_agent', u'inform_agent', u'figure_agent', u'regret_agent', u'accuse_agent', u'examine_agent']
+descriptor 10:
+[u'girl_attribute', u'beautiful_attribute', u'baby_attribute', u'daughter_attribute', u'teenage_attribute', u'sister_attribute', u'little_attribute', u'girlfriend_attribute', u'orphan_attribute', u'lady_attribute']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'chase_agent', u'pop_agent', u'lift_agent', u'pull_agent', u'fire_agent', u'toss_agent', u'drag_agent', u'shove_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'character_attribute', u'student_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'sweetheart_attribute', u'student_attribute', u'parent_attribute', u'high_attribute', u'guy_attribute', u'neighbor_attribute', u'member_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'live_patient', u'baby_attribute', u'older_attribute', u'elder_attribute', u'teenage_attribute', u'single_attribute', u'family_attribute']
+descriptor 15:
+[u'find_agent', u'attend_agent', u'horrify_patient', u'spot_agent', u'convince_patient', u'encounter_agent', u'panic_agent', u'rent_agent', u'confuse_patient', u'offer_patient']
+descriptor 16:
+[u'police_attribute', u'officer_attribute', u'be_agent', u'local_attribute', u'man_attribute', u'cop_attribute', u'killer_attribute', u'drug_attribute', u'detective_attribute', u'pull_agent']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'commit_agent', u'gang_attribute', u'murder_agent', u'escape_patient', u'new_attribute', u'die_agent', u'free_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'decline_agent', u'shock_patient', u'explain_agent', u'late_attribute', u'surprise_patient', u'worried_attribute', u'explain_patient', u'deny_agent']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'pull_agent', u'lift_agent', u'yell_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'grab_patient']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'shoot_patient', u'threaten_agent', u'arrest_patient', u'murder_patient', u'out_attribute', u'stab_patient', u'suspect_patient', u'late_attribute']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'rescue_patient', u'reunite_patient', u'kidnap_patient', u'arrive_patient', u'arrive_agent', u'there_attribute', u'come_patient', u'save_patient']
+descriptor 22:
+[u'boss_attribute', u'former_attribute', u'crime_attribute', u'abusive_attribute', u'own_attribute', u'hire_agent', u'murder_patient', u'mob_attribute', u'murder_agent', u'die_agent']
+descriptor 23:
+[u'go_agent', u'head_agent', u'taunt_patient', u'warn_patient', u'grab_agent', u'awaken_agent', u'smile_agent', u'hit_agent', u'gain_agent', u'wander_agent']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'young_attribute', u'attractive_attribute', u'widow_attribute', u'wife_attribute', u'propose_patient', u'daughter_attribute', u'pregnant_attribute', u'attract_patient']
+descriptor 25:
+[u'vampire_attribute', u'monster_attribute', u'serial_attribute', u'drug_attribute', u'alien_attribute', u'evil_attribute', u'ambush_agent', u'dealer_attribute', u'henchman_attribute', u'zombie_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'surprise_patient', u'assure_agent', u'explain_agent', u'give_agent', u'deny_agent', u'note_agent', u'detective_attribute', u'remind_patient']
+descriptor 27:
+[u'be_agent', u'free_patient', u'rescue_attribute', u'reunite_patient', u'imprison_patient', u'save_patient', u'capture_patient', u'defeat_agent', u'rescue_patient', u'abandon_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'student_attribute', u'person_attribute', u'kid_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'child_attribute', u'grandmother_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  8  cost = 0.765475237176 time:  1229.09146905
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'succeed_agent', u'accept_patient', u'marry_agent', u'successful_attribute', u'lose_agent', u'sentence_patient', u'impress_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'arrange_agent', u'perform_agent', u'earn_agent', u'fail_agent', u'devastate_patient', u'worry_patient', u'quit_agent', u'buy_agent']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'crawl_agent', u'dive_agent', u'pull_patient', u'launch_patient', u'unconscious_attribute', u'awaken_agent', u'wake_patient', u'climb_agent']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'undercover_attribute', u'locate_agent', u'assign_patient']
+descriptor 4:
+[u'young_attribute', u'white_attribute', u'mysterious_attribute', u'old_attribute', u'strange_attribute', u'other_attribute', u'small_attribute', u'little_attribute', u'same_attribute', u'teenage_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'uncle_attribute', u'father_attribute', u'manager_attribute', u'rich_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'worry_patient', u'sure_attribute', u'complain_agent', u'worry_agent', u'upset_attribute', u'surprised_attribute', u'upset_patient']
+descriptor 7:
+[u'leave_agent', u'boy_attribute', u'school_attribute', u'child_attribute', u'reply_agent', u'sing_agent', u'high_attribute', u'eat_agent', u'girl_attribute', u'member_attribute']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'boy_attribute', u'daughter_attribute', u'sister_attribute', u'kid_attribute', u'baby_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'confirm_agent', u'inform_agent', u'punch_agent', u'figure_agent', u'warn_agent', u'accuse_agent', u'examine_agent']
+descriptor 10:
+[u'girl_attribute', u'baby_attribute', u'beautiful_attribute', u'daughter_attribute', u'teenage_attribute', u'sister_attribute', u'little_attribute', u'orphan_attribute', u'girlfriend_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'chase_agent', u'pop_agent', u'lift_agent', u'pull_agent', u'fire_agent', u'toss_agent', u'drag_agent', u'shove_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'character_attribute', u'student_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'high_attribute', u'member_attribute', u'parent_attribute', u'teacher_attribute', u'partner_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'live_patient', u'single_attribute', u'baby_attribute', u'family_attribute', u'teenage_attribute', u'elder_attribute', u'older_attribute']
+descriptor 15:
+[u'find_agent', u'spot_agent', u'horrify_patient', u'attend_agent', u'convince_patient', u'offer_patient', u'prepare_agent', u'approach_patient', u'panic_agent', u'rent_agent']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'local_attribute', u'man_attribute', u'pull_agent', u'cop_attribute', u'woman_attribute', u'pick_agent', u'detective_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'commit_agent', u'murder_agent', u'new_attribute', u'escape_patient', u'wound_patient', u'free_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'shock_patient', u'decline_agent', u'surprise_patient', u'deny_agent', u'explain_agent', u'late_attribute', u'worry_patient', u'worried_attribute']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'pull_agent', u'chase_agent', u'yell_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'shoot_patient', u'threaten_agent', u'murder_patient', u'arrest_patient', u'stab_patient', u'suspect_patient', u'out_attribute', u'late_attribute']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'rescue_patient', u'kidnap_patient', u'reunite_patient', u'arrive_patient', u'arrive_agent', u'capture_patient', u'hostage_attribute', u'free_patient']
+descriptor 22:
+[u'boss_attribute', u'former_attribute', u'crime_attribute', u'own_attribute', u'murder_patient', u'mob_attribute', u'abusive_attribute', u'hire_agent', u'murder_agent', u'local_attribute']
+descriptor 23:
+[u'go_agent', u'head_agent', u'sure_attribute', u'surprise_patient', u'warn_patient', u'grab_agent', u'taunt_patient', u'gain_agent', u'smile_agent', u'hesitate_agent']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'young_attribute', u'widow_attribute', u'attractive_attribute', u'wife_attribute', u'propose_patient', u'pregnant_attribute', u'daughter_attribute', u'attract_patient']
+descriptor 25:
+[u'vampire_attribute', u'monster_attribute', u'serial_attribute', u'drug_attribute', u'evil_attribute', u'alien_attribute', u'dealer_attribute', u'ambush_agent', u'henchman_attribute', u'zombie_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'surprise_patient', u'give_agent', u'assure_agent', u'explain_agent', u'shock_patient', u'deny_agent', u'remind_patient', u'note_agent']
+descriptor 27:
+[u'be_agent', u'free_patient', u'rescue_attribute', u'imprison_patient', u'reunite_patient', u'save_patient', u'capture_patient', u'defeat_agent', u'rescue_patient', u'abandon_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'student_attribute', u'person_attribute', u'kid_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'child_attribute', u'grandmother_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  9  cost = 0.764919305266 time:  1185.7913959
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'accept_patient', u'successful_attribute', u'marry_agent', u'succeed_agent', u'lose_agent', u'impress_agent', u'sentence_patient']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'worry_patient', u'apologize_agent', u'arrange_agent', u'perform_agent', u'flirt_patient', u'devastate_patient', u'buy_agent', u'quit_agent']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'crawl_agent', u'dive_agent', u'pull_patient', u'awaken_agent', u'wake_patient', u'unconscious_attribute', u'wander_agent', u'launch_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'undercover_attribute', u'locate_agent', u'track_agent']
+descriptor 4:
+[u'young_attribute', u'white_attribute', u'mysterious_attribute', u'old_attribute', u'other_attribute', u'strange_attribute', u'small_attribute', u'same_attribute', u'little_attribute', u'elderly_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'uncle_attribute', u'father_attribute', u'rich_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'worry_patient', u'pack_agent', u'worry_agent', u'upset_attribute', u'sure_attribute', u'complain_agent', u'surprised_attribute', u'upset_patient']
+descriptor 7:
+[u'leave_agent', u'boy_attribute', u'school_attribute', u'reply_agent', u'child_attribute', u'sing_agent', u'eat_agent', u'high_attribute', u'give_patient', u'member_attribute']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'boy_attribute', u'daughter_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'punch_agent', u'confirm_agent', u'inform_agent', u'accuse_agent', u'regret_agent', u'figure_agent', u'warn_patient']
+descriptor 10:
+[u'girl_attribute', u'baby_attribute', u'beautiful_attribute', u'daughter_attribute', u'teenage_attribute', u'sister_attribute', u'little_attribute', u'girlfriend_attribute', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'chase_agent', u'pop_agent', u'lift_agent', u'fire_agent', u'pull_agent', u'toss_agent', u'drag_agent', u'shove_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'character_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'sweetheart_attribute', u'student_attribute', u'member_attribute', u'parent_attribute', u'high_attribute', u'partner_attribute', u'neighbor_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'baby_attribute', u'live_patient', u'teenage_attribute', u'bear_patient', u'raise_patient', u'single_attribute', u'older_attribute']
+descriptor 15:
+[u'find_agent', u'horrify_patient', u'spot_agent', u'attend_agent', u'encounter_agent', u'offer_patient', u'approach_patient', u'convince_patient', u'panic_agent', u'able_attribute']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'man_attribute', u'local_attribute', u'pull_agent', u'woman_attribute', u'cop_attribute', u'pick_agent', u'detective_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'commit_agent', u'die_agent', u'visit_patient', u'gang_attribute', u'evil_attribute', u'murder_agent', u'new_attribute', u'live_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'shock_patient', u'decline_agent', u'worried_attribute', u'explain_agent', u'worry_patient', u'surprise_patient', u'next_attribute', u'deny_agent']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'pull_agent', u'yell_agent', u'hit_agent', u'chase_agent', u'grab_patient', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'shoot_patient', u'threaten_agent', u'alive_attribute', u'stab_patient', u'arrest_patient', u'suspect_patient', u'out_attribute']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'rescue_patient', u'kidnap_patient', u'reunite_patient', u'arrive_patient', u'there_attribute', u'come_patient', u'save_patient', u'arrive_agent']
+descriptor 22:
+[u'boss_attribute', u'former_attribute', u'crime_attribute', u'hire_agent', u'own_attribute', u'murder_patient', u'die_agent', u'murder_agent', u'abusive_attribute', u'mob_attribute']
+descriptor 23:
+[u'go_agent', u'head_agent', u'grab_agent', u'sure_attribute', u'warn_patient', u'taunt_patient', u'surprise_patient', u'smile_agent', u'toss_agent', u'awaken_agent']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'young_attribute', u'attractive_attribute', u'widow_attribute', u'wife_attribute', u'pregnant_attribute', u'propose_patient', u'daughter_attribute', u'attract_patient']
+descriptor 25:
+[u'vampire_attribute', u'monster_attribute', u'serial_attribute', u'drug_attribute', u'alien_attribute', u'evil_attribute', u'ambush_agent', u'dealer_attribute', u'henchman_attribute', u'zombie_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'surprise_patient', u'give_agent', u'explain_agent', u'assure_agent', u'deny_agent', u'shock_patient', u'state_agent', u'note_agent']
+descriptor 27:
+[u'be_agent', u'free_patient', u'rescue_attribute', u'imprison_patient', u'reunite_patient', u'capture_patient', u'defeat_agent', u'save_patient', u'rescue_patient', u'abandon_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'student_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'child_attribute', u'grandmother_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  10  cost = 0.76485509561 time:  1208.81254983
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'marry_agent', u'accept_patient', u'successful_attribute', u'succeed_agent', u'lose_agent', u'impress_agent', u'sentence_patient']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'perform_agent', u'worry_patient', u'apologize_agent', u'buy_agent', u'arrange_agent', u'quit_agent', u'devastate_patient', u'earn_agent']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'dive_agent', u'crawl_agent', u'awaken_agent', u'pull_patient', u'wander_agent', u'launch_patient', u'unconscious_attribute', u'wake_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'undercover_attribute', u'track_agent', u'assign_patient']
+descriptor 4:
+[u'young_attribute', u'white_attribute', u'mysterious_attribute', u'old_attribute', u'strange_attribute', u'other_attribute', u'elderly_attribute', u'same_attribute', u'many_attribute', u'small_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'uncle_attribute', u'manager_attribute', u'father_attribute', u'rich_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'worry_patient', u'upset_attribute', u'sure_attribute', u'worry_agent', u'complain_agent', u'surprised_attribute', u'happy_attribute']
+descriptor 7:
+[u'leave_agent', u'boy_attribute', u'school_attribute', u'child_attribute', u'reply_agent', u'sing_agent', u'member_attribute', u'eat_agent', u'return_patient', u'girl_attribute']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'boy_attribute', u'daughter_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'confirm_agent', u'punch_agent', u'inform_agent', u'accuse_agent', u'regret_agent', u'figure_agent', u'warn_agent']
+descriptor 10:
+[u'baby_attribute', u'girl_attribute', u'beautiful_attribute', u'daughter_attribute', u'teenage_attribute', u'sister_attribute', u'little_attribute', u'orphan_attribute', u'girlfriend_attribute', u'have_patient']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'chase_agent', u'pop_agent', u'pull_agent', u'lift_agent', u'fire_agent', u'toss_agent', u'drag_agent', u'throw_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'character_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'parent_attribute', u'member_attribute', u'high_attribute', u'teacher_attribute', u'partner_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'live_patient', u'baby_attribute', u'family_attribute', u'older_attribute', u'teenage_attribute', u'elder_attribute', u'bear_patient']
+descriptor 15:
+[u'find_agent', u'horrify_patient', u'attend_agent', u'spot_agent', u'confuse_patient', u'convince_patient', u'panic_agent', u'smile_agent', u'approach_patient', u'intrigue_patient']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'local_attribute', u'man_attribute', u'woman_attribute', u'pull_agent', u'cop_attribute', u'pick_agent', u'detective_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'escape_patient', u'gang_attribute', u'free_patient', u'new_attribute', u'commit_agent', u'die_agent', u'consist_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'decline_agent', u'explain_agent', u'shock_patient', u'late_attribute', u'deny_agent', u'worried_attribute', u'reply_agent', u'worry_patient']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'pull_agent', u'yell_agent', u'hit_agent', u'chase_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'shoot_patient', u'alive_attribute', u'stab_patient', u'threaten_agent', u'out_attribute', u'arrest_patient', u'late_attribute']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'rescue_patient', u'kidnap_patient', u'reunite_patient', u'arrive_patient', u'capture_patient', u'free_patient', u'save_patient', u'hostage_attribute']
+descriptor 22:
+[u'boss_attribute', u'former_attribute', u'crime_attribute', u'own_attribute', u'murder_patient', u'die_agent', u'murder_agent', u'abusive_attribute', u'mob_attribute', u'hire_agent']
+descriptor 23:
+[u'go_agent', u'head_agent', u'grab_agent', u'taunt_patient', u'sure_attribute', u'warn_patient', u'smile_agent', u'hit_agent', u'toss_agent', u'wake_patient']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'young_attribute', u'attractive_attribute', u'widow_attribute', u'wife_attribute', u'daughter_attribute', u'propose_patient', u'pregnant_attribute', u'attract_patient']
+descriptor 25:
+[u'vampire_attribute', u'monster_attribute', u'serial_attribute', u'drug_attribute', u'alien_attribute', u'evil_attribute', u'ambush_agent', u'dealer_attribute', u'henchman_attribute', u'zombie_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'surprise_patient', u'explain_agent', u'give_agent', u'assure_agent', u'remind_patient', u'state_agent', u'deny_agent', u'shock_patient']
+descriptor 27:
+[u'be_agent', u'free_patient', u'imprison_patient', u'reunite_patient', u'rescue_attribute', u'defeat_agent', u'capture_patient', u'save_patient', u'rescue_patient', u'abandon_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'student_attribute', u'kid_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  11  cost = 0.764220160437 time:  1196.49527407
+descriptor 0:
+[u'determine_patient', u'win_agent', u'earn_agent', u'marry_agent', u'accept_patient', u'successful_attribute', u'succeed_agent', u'impress_agent', u'lose_agent', u'reject_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'perform_agent', u'arrange_agent', u'earn_agent', u'devastate_patient', u'worry_patient', u'successful_attribute', u'quit_agent', u'buy_agent']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'crawl_agent', u'dive_agent', u'awaken_agent', u'unconscious_attribute', u'pull_patient', u'wander_agent', u'launch_patient', u'wake_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'undercover_attribute', u'track_agent', u'assign_patient']
+descriptor 4:
+[u'young_attribute', u'white_attribute', u'mysterious_attribute', u'old_attribute', u'strange_attribute', u'elderly_attribute', u'other_attribute', u'same_attribute', u'many_attribute', u'middle-aged_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'uncle_attribute', u'rich_attribute', u'father_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'upset_attribute', u'sure_attribute', u'worry_patient', u'worry_agent', u'surprised_attribute', u'complain_agent', u'happy_attribute']
+descriptor 7:
+[u'leave_agent', u'boy_attribute', u'school_attribute', u'reply_agent', u'sing_agent', u'child_attribute', u'eat_agent', u'high_attribute', u'give_patient', u'place_agent']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'punch_agent', u'confirm_agent', u'inform_agent', u'figure_agent', u'warn_agent', u'accuse_agent', u'knock_agent']
+descriptor 10:
+[u'baby_attribute', u'girl_attribute', u'beautiful_attribute', u'daughter_attribute', u'teenage_attribute', u'sister_attribute', u'little_attribute', u'orphan_attribute', u'girlfriend_attribute', u'have_patient']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'chase_agent', u'pop_agent', u'lift_agent', u'fire_agent', u'pull_agent', u'toss_agent', u'drag_agent', u'shove_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'character_attribute', u'student_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'parent_attribute', u'high_attribute', u'member_attribute', u'teacher_attribute', u'kid_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'live_patient', u'baby_attribute', u'older_attribute', u'bear_patient', u'teenage_attribute', u'raise_patient', u'single_attribute']
+descriptor 15:
+[u'find_agent', u'spot_agent', u'horrify_patient', u'attend_agent', u'convince_patient', u'approach_patient', u'panic_agent', u'warn_patient', u'offer_patient', u'prepare_agent']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'local_attribute', u'man_attribute', u'pull_agent', u'woman_attribute', u'killer_attribute', u'cop_attribute', u'pick_agent']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'commit_agent', u'escape_patient', u'new_attribute', u'free_patient', u'die_agent', u'murder_agent']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'decline_agent', u'explain_agent', u'shock_patient', u'late_attribute', u'deny_agent', u'explain_patient', u'worried_attribute', u'reply_agent']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'yell_agent', u'pull_agent', u'hit_agent', u'chase_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'shoot_patient', u'murder_patient', u'alive_attribute', u'out_attribute', u'stab_patient', u'late_attribute', u'threaten_agent', u'visit_attribute']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'kidnap_patient', u'rescue_patient', u'reunite_patient', u'arrive_patient', u'free_patient', u'save_patient', u'capture_patient', u'rescue_attribute']
+descriptor 22:
+[u'die_agent', u'boss_attribute', u'own_attribute', u'murder_patient', u'crime_attribute', u'former_attribute', u'murder_agent', u'abusive_attribute', u'mob_attribute', u'serial_attribute']
+descriptor 23:
+[u'go_agent', u'grab_agent', u'sure_attribute', u'head_agent', u'surprise_patient', u'warn_patient', u'taunt_patient', u'smile_agent', u'draw_agent', u'hit_agent']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'young_attribute', u'widow_attribute', u'attractive_attribute', u'wife_attribute', u'daughter_attribute', u'propose_patient', u'pregnant_attribute', u'girl_attribute']
+descriptor 25:
+[u'vampire_attribute', u'monster_attribute', u'serial_attribute', u'drug_attribute', u'alien_attribute', u'evil_attribute', u'ambush_agent', u'dealer_attribute', u'henchman_attribute', u'zombie_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'surprise_patient', u'explain_agent', u'give_agent', u'assure_agent', u'remind_patient', u'shock_patient', u'father_attribute', u'state_agent']
+descriptor 27:
+[u'be_agent', u'free_patient', u'imprison_patient', u'reunite_patient', u'rescue_attribute', u'defeat_agent', u'capture_patient', u'save_patient', u'rescue_patient', u'abandon_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'student_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'child_attribute', u'grandmother_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  12  cost = 0.763811540642 time:  1188.51733112
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'accept_patient', u'successful_attribute', u'marry_agent', u'succeed_agent', u'lose_agent', u'impress_agent', u'reject_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'perform_agent', u'earn_agent', u'worry_patient', u'devastate_patient', u'fail_agent', u'apologize_agent', u'arrange_agent', u'present_patient']
+descriptor 2:
+[u'dive_agent', u'slam_agent', u'pop_agent', u'crawl_agent', u'awaken_agent', u'wander_agent', u'pull_patient', u'unconscious_attribute', u'launch_patient', u'emerge_agent']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'track_agent', u'assign_patient', u'undercover_attribute']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'old_attribute', u'strange_attribute', u'elderly_attribute', u'other_attribute', u'same_attribute', u'middle-aged_attribute', u'many_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'uncle_attribute', u'manager_attribute', u'father_attribute', u'rich_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'upset_attribute', u'sure_attribute', u'worry_patient', u'worry_agent', u'complain_agent', u'surprised_attribute', u'happy_attribute']
+descriptor 7:
+[u'leave_agent', u'reply_agent', u'boy_attribute', u'school_attribute', u'sing_agent', u'place_agent', u'eat_agent', u'give_patient', u'child_attribute', u'win_agent']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'confirm_agent', u'inform_agent', u'punch_agent', u'accuse_agent', u'regret_agent', u'reveal_patient', u'warn_agent']
+descriptor 10:
+[u'baby_attribute', u'girl_attribute', u'beautiful_attribute', u'teenage_attribute', u'daughter_attribute', u'little_attribute', u'sister_attribute', u'orphan_attribute', u'have_patient', u'girlfriend_attribute']
+descriptor 11:
+[u'try_agent', u'grab_agent', u'chase_agent', u'pop_agent', u'lift_agent', u'pull_agent', u'fire_agent', u'toss_agent', u'drag_agent', u'throw_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'character_attribute', u'student_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'member_attribute', u'parent_attribute', u'high_attribute', u'partner_attribute', u'teacher_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'baby_attribute', u'live_patient', u'bear_patient', u'raise_patient', u'elder_attribute', u'older_attribute', u'teenage_attribute']
+descriptor 15:
+[u'find_agent', u'horrify_patient', u'attend_agent', u'spot_agent', u'convince_patient', u'approach_patient', u'panic_agent', u'smile_agent', u'offer_patient', u'confuse_patient']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'man_attribute', u'pull_agent', u'local_attribute', u'cop_attribute', u'pick_agent', u'detective_attribute', u'grab_agent']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'escape_patient', u'free_patient', u'commit_agent', u'murder_agent', u'die_agent', u'new_attribute']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'decline_agent', u'shock_patient', u'explain_agent', u'deny_agent', u'worry_patient', u'worried_attribute', u'late_attribute', u'reply_agent']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'yell_agent', u'pull_agent', u'hit_agent', u'chase_agent', u'hit_patient', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'shoot_patient', u'alive_attribute', u'stab_patient', u'late_attribute', u'threaten_agent', u'out_attribute', u'visit_attribute']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'rescue_patient', u'find_patient', u'reunite_patient', u'arrive_patient', u'save_patient', u'free_patient', u'capture_patient', u'rescue_attribute']
+descriptor 22:
+[u'die_agent', u'boss_attribute', u'murder_patient', u'own_attribute', u'crime_attribute', u'former_attribute', u'murder_agent', u'abusive_attribute', u'hire_agent', u'mob_attribute']
+descriptor 23:
+[u'go_agent', u'grab_agent', u'hit_agent', u'sure_attribute', u'head_agent', u'wake_patient', u'smile_agent', u'grab_patient', u'taunt_patient', u'annoyed_attribute']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'young_attribute', u'widow_attribute', u'wife_attribute', u'daughter_attribute', u'attractive_attribute', u'propose_patient', u'pregnant_attribute', u'girl_attribute']
+descriptor 25:
+[u'vampire_attribute', u'monster_attribute', u'serial_attribute', u'drug_attribute', u'ambush_agent', u'alien_attribute', u'dealer_attribute', u'evil_attribute', u'henchman_attribute', u'guard_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'surprise_patient', u'give_agent', u'explain_agent', u'assure_agent', u'remind_patient', u'state_agent', u'deny_agent', u'shock_patient']
+descriptor 27:
+[u'be_agent', u'free_patient', u'imprison_patient', u'reunite_patient', u'rescue_attribute', u'defeat_agent', u'capture_patient', u'save_patient', u'reunite_agent', u'rescue_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'student_attribute', u'person_attribute', u'kid_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'child_attribute', u'grandmother_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  13  cost = 0.763528165823 time:  1173.29117417
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'successful_attribute', u'accept_patient', u'marry_agent', u'succeed_agent', u'lose_agent', u'impress_agent', u'reject_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'perform_agent', u'worry_patient', u'devastate_patient', u'flirt_patient', u'earn_agent', u'arrange_agent', u'apologize_agent', u'fail_agent']
+descriptor 2:
+[u'pop_agent', u'slam_agent', u'dive_agent', u'crawl_agent', u'awaken_agent', u'wander_agent', u'unconscious_attribute', u'pull_patient', u'wake_patient', u'launch_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'deduce_agent', u'agent_attribute', u'track_agent', u'assign_patient', u'undercover_attribute']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'old_attribute', u'elderly_attribute', u'strange_attribute', u'middle-aged_attribute', u'same_attribute', u'other_attribute', u'many_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'uncle_attribute', u'partner_attribute', u'manager_attribute', u'rich_attribute', u'father_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'upset_attribute', u'worry_patient', u'sure_attribute', u'worry_agent', u'complain_agent', u'happy_attribute', u'surprised_attribute']
+descriptor 7:
+[u'leave_agent', u'reply_agent', u'sing_agent', u'school_attribute', u'boy_attribute', u'eat_agent', u'place_agent', u'give_patient', u'stand_agent', u'child_attribute']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'confirm_agent', u'punch_agent', u'inform_agent', u'figure_agent', u'accuse_agent', u'regret_agent', u'warn_agent']
+descriptor 10:
+[u'baby_attribute', u'girl_attribute', u'beautiful_attribute', u'teenage_attribute', u'daughter_attribute', u'little_attribute', u'sister_attribute', u'orphan_attribute', u'have_patient', u'girlfriend_attribute']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'grab_agent', u'fire_agent', u'pop_agent', u'lift_agent', u'toss_agent', u'pull_agent', u'drag_agent', u'throw_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'teacher_attribute', u'character_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'member_attribute', u'parent_attribute', u'high_attribute', u'teacher_attribute', u'partner_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'baby_attribute', u'live_patient', u'bear_patient', u'raise_patient', u'teenage_attribute', u'elder_attribute', u'single_attribute']
+descriptor 15:
+[u'find_agent', u'spot_agent', u'convince_patient', u'horrify_patient', u'panic_agent', u'approach_patient', u'prepare_agent', u'encounter_agent', u'detective_attribute', u'attend_agent']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'man_attribute', u'local_attribute', u'woman_attribute', u'pull_agent', u'pick_agent', u'killer_attribute', u'grab_agent']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'commit_agent', u'escape_patient', u'murder_agent', u'free_patient', u'die_agent', u'wound_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'decline_agent', u'shock_patient', u'explain_agent', u'worry_patient', u'worried_attribute', u'deny_agent', u'next_attribute', u'surprise_patient']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'yell_agent', u'pull_agent', u'hit_agent', u'chase_agent', u'shove_agent', u'hit_patient']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'alive_attribute', u'shoot_patient', u'stab_patient', u'out_attribute', u'late_attribute', u'visit_attribute', u'question_patient']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'rescue_patient', u'find_patient', u'reunite_patient', u'arrive_patient', u'capture_patient', u'free_patient', u'save_patient', u'hostage_attribute']
+descriptor 22:
+[u'die_agent', u'boss_attribute', u'murder_patient', u'own_attribute', u'murder_agent', u'crime_attribute', u'abusive_attribute', u'former_attribute', u'mob_attribute', u'hire_agent']
+descriptor 23:
+[u'go_agent', u'sure_attribute', u'grab_agent', u'head_agent', u'annoyed_attribute', u'smile_agent', u'surprise_patient', u'warn_patient', u'wake_patient', u'sit_patient']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'wife_attribute', u'widow_attribute', u'daughter_attribute', u'young_attribute', u'attractive_attribute', u'propose_patient', u'pregnant_attribute', u'girl_attribute']
+descriptor 25:
+[u'vampire_attribute', u'monster_attribute', u'serial_attribute', u'drug_attribute', u'ambush_agent', u'alien_attribute', u'dealer_attribute', u'evil_attribute', u'henchman_attribute', u'guard_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'surprise_patient', u'give_agent', u'explain_agent', u'remind_patient', u'assure_agent', u'state_agent', u'deny_agent', u'shock_patient']
+descriptor 27:
+[u'be_agent', u'free_patient', u'imprison_patient', u'rescue_attribute', u'reunite_patient', u'defeat_agent', u'capture_patient', u'save_patient', u'raise_patient', u'rescue_patient']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'student_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  14  cost = 0.763155685727 time:  1191.95512104
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'accept_patient', u'successful_attribute', u'marry_agent', u'succeed_agent', u'lose_agent', u'impress_agent', u'develop_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'perform_agent', u'worry_patient', u'earn_agent', u'devastate_patient', u'fail_agent', u'flirt_patient', u'apologize_agent', u'arrange_agent']
+descriptor 2:
+[u'slam_agent', u'pop_agent', u'dive_agent', u'crawl_agent', u'awaken_agent', u'wander_agent', u'unconscious_attribute', u'pull_patient', u'launch_patient', u'emerge_agent']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'police_attribute', u'investigate_agent', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'track_agent', u'assign_patient', u'undercover_attribute']
+descriptor 4:
+[u'young_attribute', u'white_attribute', u'mysterious_attribute', u'old_attribute', u'elderly_attribute', u'strange_attribute', u'middle-aged_attribute', u'same_attribute', u'many_attribute', u'other_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'uncle_attribute', u'manager_attribute', u'rich_attribute', u'former_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'upset_attribute', u'worry_patient', u'sure_attribute', u'worry_agent', u'complain_agent', u'surprised_attribute', u'happy_attribute']
+descriptor 7:
+[u'leave_agent', u'reply_agent', u'school_attribute', u'sing_agent', u'boy_attribute', u'eat_agent', u'place_agent', u'high_attribute', u'stand_agent', u'win_agent']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'confirm_agent', u'punch_agent', u'regret_agent', u'inform_agent', u'accuse_agent', u'figure_agent', u'confess_agent']
+descriptor 10:
+[u'baby_attribute', u'girl_attribute', u'beautiful_attribute', u'teenage_attribute', u'daughter_attribute', u'little_attribute', u'sister_attribute', u'have_patient', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'grab_agent', u'fire_agent', u'pop_agent', u'toss_agent', u'lift_agent', u'pull_agent', u'drag_agent', u'taunt_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'character_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'member_attribute', u'parent_attribute', u'high_attribute', u'teacher_attribute', u'partner_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'live_patient', u'baby_attribute', u'bear_patient', u'raise_patient', u'teenage_attribute', u'elder_attribute', u'single_attribute']
+descriptor 15:
+[u'find_agent', u'convince_patient', u'horrify_patient', u'attend_agent', u'spot_agent', u'offer_patient', u'approach_patient', u'panic_agent', u'prepare_agent', u'disturb_patient']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'man_attribute', u'woman_attribute', u'local_attribute', u'pull_agent', u'pick_agent', u'grab_agent', u'neighbor_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'escape_patient', u'murder_agent', u'commit_agent', u'die_agent', u'new_attribute', u'wound_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'decline_agent', u'explain_agent', u'shock_patient', u'worried_attribute', u'late_attribute', u'worry_patient', u'deny_agent', u'next_attribute']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'pull_agent', u'yell_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'shoot_patient', u'alive_attribute', u'late_attribute', u'stab_patient', u'threaten_agent', u'visit_attribute', u'out_attribute']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'rescue_patient', u'find_patient', u'reunite_patient', u'arrive_patient', u'free_patient', u'capture_patient', u'save_patient', u'hostage_attribute']
+descriptor 22:
+[u'die_agent', u'boss_attribute', u'murder_patient', u'own_attribute', u'crime_attribute', u'murder_agent', u'abusive_attribute', u'former_attribute', u'mob_attribute', u'receive_patient']
+descriptor 23:
+[u'go_agent', u'head_agent', u'grab_agent', u'warn_patient', u'sure_attribute', u'taunt_patient', u'surprise_patient', u'suspicious_attribute', u'smile_agent', u'annoyed_attribute']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'wife_attribute', u'daughter_attribute', u'widow_attribute', u'propose_patient', u'young_attribute', u'attractive_attribute', u'pregnant_attribute', u'girl_attribute']
+descriptor 25:
+[u'vampire_attribute', u'monster_attribute', u'serial_attribute', u'drug_attribute', u'ambush_agent', u'dealer_attribute', u'alien_attribute', u'evil_attribute', u'henchman_attribute', u'guard_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'give_agent', u'surprise_patient', u'explain_agent', u'confront_agent', u'assure_agent', u'remind_patient', u'wound_patient', u'state_agent']
+descriptor 27:
+[u'be_agent', u'free_patient', u'imprison_patient', u'defeat_agent', u'reunite_patient', u'rescue_attribute', u'capture_patient', u'save_patient', u'rescue_patient', u'reunite_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'student_attribute', u'person_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  15  cost = 0.762802518049 time:  1195.54616594
+descriptor 0:
+[u'determine_patient', u'win_agent', u'earn_agent', u'accept_patient', u'successful_attribute', u'marry_agent', u'succeed_agent', u'lose_agent', u'impress_agent', u'reject_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'perform_agent', u'worry_patient', u'apologize_agent', u'flirt_patient', u'fail_agent', u'devastate_patient', u'like_agent', u'throw_patient']
+descriptor 2:
+[u'pop_agent', u'crawl_agent', u'slam_agent', u'dive_agent', u'awaken_agent', u'unconscious_attribute', u'wander_agent', u'pull_patient', u'launch_patient', u'emerge_agent']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'deduce_agent', u'agent_attribute', u'track_agent', u'assign_patient', u'undercover_attribute']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'old_attribute', u'elderly_attribute', u'strange_attribute', u'middle-aged_attribute', u'other_attribute', u'same_attribute', u'many_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'manager_attribute', u'partner_attribute', u'uncle_attribute', u'rich_attribute', u'former_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'upset_attribute', u'worry_patient', u'sure_attribute', u'worry_agent', u'complain_agent', u'surprised_attribute', u'happy_attribute']
+descriptor 7:
+[u'leave_agent', u'reply_agent', u'school_attribute', u'sing_agent', u'eat_agent', u'boy_attribute', u'place_agent', u'give_patient', u'win_agent', u'stand_agent']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'boy_attribute', u'daughter_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'punch_agent', u'confirm_agent', u'figure_agent', u'knock_agent', u'inform_agent', u'regret_agent', u'accuse_agent']
+descriptor 10:
+[u'baby_attribute', u'girl_attribute', u'teenage_attribute', u'beautiful_attribute', u'little_attribute', u'daughter_attribute', u'sister_attribute', u'have_patient', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'grab_agent', u'fire_agent', u'pop_agent', u'toss_agent', u'lift_agent', u'pull_agent', u'throw_agent', u'drag_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'character_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'parent_attribute', u'member_attribute', u'high_attribute', u'guy_attribute', u'teacher_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'live_patient', u'baby_attribute', u'raise_patient', u'bear_patient', u'teenage_attribute', u'elder_attribute', u'single_attribute']
+descriptor 15:
+[u'find_agent', u'convince_patient', u'spot_agent', u'horrify_patient', u'panic_agent', u'attend_agent', u'smile_agent', u'confuse_patient', u'approach_patient', u'prepare_agent']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'man_attribute', u'pull_agent', u'local_attribute', u'woman_attribute', u'pick_agent', u'grab_agent', u'killer_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'commit_agent', u'evil_attribute', u'visit_patient', u'die_agent', u'gang_attribute', u'escape_patient', u'murder_agent', u'live_patient']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'decline_agent', u'explain_agent', u'shock_patient', u'deny_agent', u'late_attribute', u'worry_patient', u'worried_attribute', u'next_attribute']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'pull_agent', u'yell_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'alive_attribute', u'shoot_patient', u'late_attribute', u'stab_patient', u'out_attribute', u'question_patient', u'threaten_agent']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'rescue_patient', u'find_patient', u'reunite_patient', u'arrive_patient', u'free_patient', u'save_patient', u'rescue_attribute', u'hostage_attribute']
+descriptor 22:
+[u'die_agent', u'murder_patient', u'boss_attribute', u'murder_agent', u'own_attribute', u'crime_attribute', u'abusive_attribute', u'former_attribute', u'mob_attribute', u'hire_agent']
+descriptor 23:
+[u'go_agent', u'head_agent', u'sure_attribute', u'grab_agent', u'smile_agent', u'warn_patient', u'surprise_patient', u'annoyed_attribute', u'spot_agent', u'taunt_patient']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'daughter_attribute', u'wife_attribute', u'widow_attribute', u'propose_patient', u'young_attribute', u'attractive_attribute', u'pregnant_attribute', u'girl_attribute']
+descriptor 25:
+[u'vampire_attribute', u'monster_attribute', u'serial_attribute', u'drug_attribute', u'ambush_agent', u'evil_attribute', u'alien_attribute', u'dealer_attribute', u'henchman_attribute', u'killer_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'give_agent', u'surprise_patient', u'explain_agent', u'confront_agent', u'remind_patient', u'assure_agent', u'father_attribute', u'deny_agent']
+descriptor 27:
+[u'be_agent', u'free_patient', u'imprison_patient', u'defeat_agent', u'rescue_attribute', u'capture_patient', u'reunite_patient', u'save_patient', u'rescue_patient', u'destroy_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'student_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  16  cost = 0.762465340449 time:  1171.48500705
+descriptor 0:
+[u'determine_patient', u'earn_agent', u'win_agent', u'successful_attribute', u'accept_patient', u'marry_agent', u'succeed_agent', u'lose_agent', u'impress_agent', u'sentence_patient']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'perform_agent', u'worry_patient', u'flirt_patient', u'devastate_patient', u'earn_agent', u'lonely_attribute', u'upset_patient', u'throw_patient']
+descriptor 2:
+[u'crawl_agent', u'slam_agent', u'dive_agent', u'pop_agent', u'awaken_agent', u'unconscious_attribute', u'wander_agent', u'launch_patient', u'pull_patient', u'emerge_agent']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'track_agent', u'undercover_attribute', u'assign_patient']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'old_attribute', u'elderly_attribute', u'strange_attribute', u'middle-aged_attribute', u'many_attribute', u'same_attribute', u'other_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'uncle_attribute', u'former_attribute', u'rich_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'upset_attribute', u'worry_patient', u'sure_attribute', u'worry_agent', u'surprised_attribute', u'happy_attribute', u'complain_agent']
+descriptor 7:
+[u'reply_agent', u'leave_agent', u'eat_agent', u'school_attribute', u'place_agent', u'sing_agent', u'boy_attribute', u'give_patient', u'stand_agent', u'destroy_patient']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'boy_attribute', u'daughter_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'punch_agent', u'approach_agent', u'figure_agent', u'confirm_agent', u'knock_agent', u'inform_agent', u'accuse_agent', u'regret_agent']
+descriptor 10:
+[u'baby_attribute', u'girl_attribute', u'teenage_attribute', u'beautiful_attribute', u'little_attribute', u'daughter_attribute', u'sister_attribute', u'have_patient', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'grab_agent', u'fire_agent', u'toss_agent', u'throw_agent', u'pop_agent', u'pull_agent', u'lift_agent', u'drag_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'character_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'parent_attribute', u'member_attribute', u'high_attribute', u'teacher_attribute', u'kid_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'live_patient', u'baby_attribute', u'raise_patient', u'bear_patient', u'elder_attribute', u'teenage_attribute', u'older_attribute']
+descriptor 15:
+[u'find_agent', u'spot_agent', u'panic_agent', u'horrify_patient', u'convince_patient', u'attend_agent', u'smile_agent', u'approach_patient', u'offer_patient', u'prepare_agent']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'man_attribute', u'local_attribute', u'pull_agent', u'woman_attribute', u'pick_agent', u'grab_agent', u'killer_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'gang_attribute', u'evil_attribute', u'new_attribute', u'commit_agent', u'visit_patient', u'escape_patient', u'murder_agent', u'die_agent']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'explain_agent', u'decline_agent', u'shock_patient', u'point_agent', u'deny_agent', u'reply_agent', u'explain_patient', u'next_attribute']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'pull_agent', u'yell_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'alive_attribute', u'shoot_patient', u'late_attribute', u'visit_attribute', u'suspect_patient', u'question_patient', u'out_attribute']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'find_patient', u'rescue_patient', u'reunite_patient', u'arrive_patient', u'hostage_attribute', u'capture_patient', u'free_patient', u'rescue_attribute']
+descriptor 22:
+[u'die_agent', u'murder_patient', u'boss_attribute', u'own_attribute', u'murder_agent', u'crime_attribute', u'abusive_attribute', u'mob_attribute', u'serial_attribute', u'former_attribute']
+descriptor 23:
+[u'go_agent', u'grab_agent', u'head_agent', u'sure_attribute', u'smile_agent', u'wake_patient', u'warn_patient', u'annoyed_attribute', u'surprise_patient', u'taunt_patient']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'daughter_attribute', u'wife_attribute', u'propose_patient', u'widow_attribute', u'pregnant_attribute', u'girl_attribute', u'attractive_attribute', u'young_attribute']
+descriptor 25:
+[u'vampire_attribute', u'serial_attribute', u'monster_attribute', u'drug_attribute', u'ambush_agent', u'dealer_attribute', u'evil_attribute', u'alien_attribute', u'henchman_attribute', u'guard_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'give_agent', u'surprise_patient', u'explain_agent', u'confront_agent', u'father_attribute', u'deny_agent', u'assure_agent', u'arrange_agent']
+descriptor 27:
+[u'be_agent', u'free_patient', u'imprison_patient', u'rescue_attribute', u'capture_patient', u'defeat_agent', u'reunite_patient', u'save_patient', u'rescue_patient', u'destroy_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'student_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  17  cost = 0.76220986937 time:  1190.65910101
+descriptor 0:
+[u'win_agent', u'determine_patient', u'earn_agent', u'successful_attribute', u'accept_patient', u'marry_agent', u'succeed_agent', u'lose_agent', u'sentence_patient', u'impress_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'perform_agent', u'worry_patient', u'apologize_agent', u'fail_agent', u'earn_agent', u'arrange_agent', u'quit_agent', u'follow_agent']
+descriptor 2:
+[u'crawl_agent', u'slam_agent', u'pop_agent', u'dive_agent', u'awaken_agent', u'unconscious_attribute', u'wander_agent', u'pull_patient', u'launch_patient', u'emerge_agent']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'track_agent', u'assign_patient', u'undercover_attribute']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'elderly_attribute', u'old_attribute', u'strange_attribute', u'middle-aged_attribute', u'same_attribute', u'many_attribute', u'poor_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'uncle_attribute', u'former_attribute', u'rich_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'upset_attribute', u'worry_patient', u'sure_attribute', u'worry_agent', u'surprised_attribute', u'complain_agent', u'happy_attribute']
+descriptor 7:
+[u'reply_agent', u'leave_agent', u'place_agent', u'eat_agent', u'sing_agent', u'school_attribute', u'boy_attribute', u'destroy_patient', u'give_patient', u'stand_agent']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'boy_attribute', u'daughter_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'confirm_agent', u'approach_agent', u'punch_agent', u'regret_agent', u'accuse_agent', u'inform_agent', u'figure_agent', u'confess_agent']
+descriptor 10:
+[u'baby_attribute', u'girl_attribute', u'teenage_attribute', u'beautiful_attribute', u'little_attribute', u'daughter_attribute', u'sister_attribute', u'have_patient', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'grab_agent', u'fire_agent', u'pop_agent', u'lift_agent', u'pull_agent', u'toss_agent', u'throw_agent', u'drag_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'character_attribute', u'student_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'member_attribute', u'parent_attribute', u'kid_attribute', u'high_attribute', u'guy_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'live_patient', u'baby_attribute', u'raise_patient', u'bear_patient', u'tell_patient', u'elder_attribute', u'teenage_attribute']
+descriptor 15:
+[u'find_agent', u'convince_patient', u'attend_agent', u'horrify_patient', u'offer_patient', u'spot_agent', u'approach_patient', u'panic_agent', u'intrigue_patient', u'prepare_agent']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'pull_agent', u'man_attribute', u'woman_attribute', u'grab_agent', u'pick_agent', u'local_attribute', u'killer_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'commit_agent', u'new_attribute', u'escape_patient', u'murder_agent', u'visit_patient', u'die_agent']
+descriptor 18:
+[u'tell_agent', u'decline_agent', u'annoy_patient', u'explain_agent', u'shock_patient', u'explain_patient', u'worried_attribute', u'deny_agent', u'late_attribute', u'surprise_patient']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'pull_agent', u'yell_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'alive_attribute', u'shoot_patient', u'late_attribute', u'question_patient', u'visit_attribute', u'out_attribute', u'stab_patient']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'find_patient', u'rescue_patient', u'reunite_patient', u'arrive_patient', u'free_patient', u'capture_patient', u'come_patient', u'save_patient']
+descriptor 22:
+[u'die_agent', u'murder_patient', u'boss_attribute', u'murder_agent', u'own_attribute', u'crime_attribute', u'abusive_attribute', u'mob_attribute', u'hire_agent', u'serial_attribute']
+descriptor 23:
+[u'go_agent', u'sure_attribute', u'head_agent', u'warn_patient', u'surprise_patient', u'smile_agent', u'grab_agent', u'annoyed_attribute', u'stare_patient', u'taunt_patient']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'daughter_attribute', u'wife_attribute', u'widow_attribute', u'propose_patient', u'girl_attribute', u'attractive_attribute', u'pregnant_attribute', u'young_attribute']
+descriptor 25:
+[u'vampire_attribute', u'serial_attribute', u'monster_attribute', u'drug_attribute', u'ambush_agent', u'dealer_attribute', u'alien_attribute', u'evil_attribute', u'henchman_attribute', u'guard_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'give_agent', u'surprise_patient', u'explain_agent', u'father_attribute', u'confront_agent', u'assure_agent', u'remind_patient', u'state_agent']
+descriptor 27:
+[u'be_agent', u'imprison_patient', u'free_patient', u'capture_patient', u'rescue_attribute', u'defeat_agent', u'reunite_patient', u'save_patient', u'rescue_patient', u'destroy_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'student_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  18  cost = 0.762193909968 time:  1163.80018187
+descriptor 0:
+[u'win_agent', u'determine_patient', u'earn_agent', u'successful_attribute', u'marry_agent', u'accept_patient', u'succeed_agent', u'lose_agent', u'reject_agent', u'impress_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'worry_patient', u'perform_agent', u'apologize_agent', u'flirt_patient', u'devastate_patient', u'upset_patient', u'arrange_agent', u'buy_agent']
+descriptor 2:
+[u'crawl_agent', u'dive_agent', u'awaken_agent', u'slam_agent', u'pop_agent', u'unconscious_attribute', u'wander_agent', u'emerge_agent', u'launch_patient', u'pull_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'track_agent', u'assign_patient', u'undercover_attribute']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'elderly_attribute', u'old_attribute', u'middle-aged_attribute', u'strange_attribute', u'many_attribute', u'same_attribute', u'poor_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'uncle_attribute', u'former_attribute', u'rich_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'upset_attribute', u'worry_patient', u'sure_attribute', u'worry_agent', u'surprised_attribute', u'complain_agent', u'happy_attribute']
+descriptor 7:
+[u'reply_agent', u'leave_agent', u'place_agent', u'eat_agent', u'sing_agent', u'school_attribute', u'boy_attribute', u'stand_agent', u'give_patient', u'win_agent']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'confirm_agent', u'punch_agent', u'inform_agent', u'accuse_agent', u'regret_agent', u'figure_agent', u'plan_agent']
+descriptor 10:
+[u'baby_attribute', u'girl_attribute', u'teenage_attribute', u'beautiful_attribute', u'little_attribute', u'daughter_attribute', u'sister_attribute', u'have_patient', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'fire_agent', u'grab_agent', u'throw_agent', u'toss_agent', u'pull_agent', u'lift_agent', u'drag_agent', u'pop_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'student_attribute', u'character_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'parent_attribute', u'member_attribute', u'high_attribute', u'teacher_attribute', u'partner_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'younger_attribute', u'live_patient', u'baby_attribute', u'raise_patient', u'bear_patient', u'tell_patient', u'elder_attribute', u'teenage_attribute']
+descriptor 15:
+[u'find_agent', u'spot_agent', u'horrify_patient', u'convince_patient', u'attend_agent', u'panic_agent', u'offer_patient', u'approach_patient', u'prepare_agent', u'warn_patient']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'pull_agent', u'man_attribute', u'woman_attribute', u'grab_agent', u'pick_agent', u'local_attribute', u'killer_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'escape_patient', u'new_attribute', u'commit_agent', u'murder_agent', u'die_agent', u'visit_patient']
+descriptor 18:
+[u'tell_agent', u'explain_agent', u'annoy_patient', u'decline_agent', u'deny_agent', u'late_attribute', u'shock_patient', u'explain_patient', u'point_agent', u'worried_attribute']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'yell_agent', u'pull_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'alive_attribute', u'late_attribute', u'out_attribute', u'visit_attribute', u'shoot_patient', u'question_patient', u'stab_patient']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'find_patient', u'rescue_patient', u'reunite_patient', u'arrive_patient', u'free_patient', u'come_patient', u'save_patient', u'capture_patient']
+descriptor 22:
+[u'die_agent', u'murder_patient', u'own_attribute', u'murder_agent', u'boss_attribute', u'crime_attribute', u'abusive_attribute', u'receive_patient', u'mob_attribute', u'serial_attribute']
+descriptor 23:
+[u'go_agent', u'sure_attribute', u'annoyed_attribute', u'surprise_patient', u'grab_agent', u'smile_agent', u'wake_patient', u'head_agent', u'worried_attribute', u'hurt_agent']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'daughter_attribute', u'wife_attribute', u'propose_patient', u'widow_attribute', u'girl_attribute', u'pregnant_attribute', u'attractive_attribute', u'marry_patient']
+descriptor 25:
+[u'vampire_attribute', u'serial_attribute', u'drug_attribute', u'monster_attribute', u'dealer_attribute', u'ambush_agent', u'evil_attribute', u'alien_attribute', u'henchman_attribute', u'killer_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'give_agent', u'explain_agent', u'surprise_patient', u'confront_agent', u'father_attribute', u'wound_patient', u'state_agent', u'deny_agent']
+descriptor 27:
+[u'be_agent', u'free_patient', u'imprison_patient', u'rescue_attribute', u'reunite_patient', u'capture_patient', u'defeat_agent', u'save_patient', u'rescue_patient', u'reunite_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'student_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  19  cost = 0.761673671032 time:  1187.91142488
+done with epoch:  20  cost = 0.761927085657 time:  1162.93126917
+descriptor 0:
+[u'successful_attribute', u'win_agent', u'determine_patient', u'earn_agent', u'marry_agent', u'accept_patient', u'succeed_agent', u'reject_agent', u'impress_agent', u'accept_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'worry_patient', u'perform_agent', u'arrange_agent', u'apologize_agent', u'fail_agent', u'earn_agent', u'devastate_patient', u'buy_agent']
+descriptor 2:
+[u'awaken_agent', u'crawl_agent', u'dive_agent', u'slam_agent', u'unconscious_attribute', u'wander_agent', u'pop_agent', u'emerge_agent', u'appear_patient', u'awaken_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'track_agent', u'undercover_attribute', u'assign_patient']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'elderly_attribute', u'old_attribute', u'middle-aged_attribute', u'strange_attribute', u'many_attribute', u'same_attribute', u'poor_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'uncle_attribute', u'rich_attribute', u'former_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'upset_attribute', u'worry_patient', u'sure_attribute', u'worry_agent', u'surprised_attribute', u'complain_agent', u'happy_attribute']
+descriptor 7:
+[u'reply_agent', u'place_agent', u'leave_agent', u'eat_agent', u'sing_agent', u'school_attribute', u'give_patient', u'stand_agent', u'destroy_patient', u'defeat_patient']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'daughter_attribute', u'boy_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'punch_agent', u'confirm_agent', u'figure_agent', u'knock_agent', u'inform_agent', u'accuse_agent', u'regret_agent']
+descriptor 10:
+[u'baby_attribute', u'teenage_attribute', u'girl_attribute', u'beautiful_attribute', u'little_attribute', u'daughter_attribute', u'sister_attribute', u'have_patient', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'grab_agent', u'fire_agent', u'lift_agent', u'toss_agent', u'pop_agent', u'pull_agent', u'find_patient', u'drag_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'character_attribute', u'student_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'american_attribute', u'female_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'member_attribute', u'parent_attribute', u'partner_attribute', u'teacher_attribute', u'high_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'live_patient', u'younger_attribute', u'baby_attribute', u'raise_patient', u'tell_patient', u'bear_patient', u'elder_attribute', u'older_attribute']
+descriptor 15:
+[u'find_agent', u'spot_agent', u'horrify_patient', u'panic_agent', u'convince_patient', u'attend_agent', u'approach_patient', u'smile_agent', u'confuse_patient', u'offer_patient']
+descriptor 16:
+[u'be_agent', u'police_attribute', u'officer_attribute', u'pull_agent', u'man_attribute', u'woman_attribute', u'grab_agent', u'pick_agent', u'local_attribute', u'killer_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'escape_patient', u'new_attribute', u'commit_agent', u'free_patient', u'murder_agent', u'die_agent']
+descriptor 18:
+[u'tell_agent', u'decline_agent', u'annoy_patient', u'explain_agent', u'shock_patient', u'deny_agent', u'explain_patient', u'next_attribute', u'reply_agent', u'late_attribute']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'pull_agent', u'yell_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'alive_attribute', u'late_attribute', u'stab_patient', u'out_attribute', u'question_patient', u'shoot_patient', u'visit_attribute']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'find_patient', u'rescue_patient', u'reunite_patient', u'arrive_patient', u'come_patient', u'free_patient', u'capture_patient', u'save_patient']
+descriptor 22:
+[u'die_agent', u'murder_patient', u'own_attribute', u'murder_agent', u'boss_attribute', u'crime_attribute', u'abusive_attribute', u'serial_attribute', u'receive_patient', u'mob_attribute']
+descriptor 23:
+[u'go_agent', u'sure_attribute', u'head_agent', u'surprise_patient', u'grab_agent', u'smile_agent', u'warn_patient', u'annoyed_attribute', u'draw_agent', u'sit_agent']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'daughter_attribute', u'wife_attribute', u'propose_patient', u'widow_attribute', u'girl_attribute', u'pregnant_attribute', u'attractive_attribute', u'marry_patient']
+descriptor 25:
+[u'serial_attribute', u'vampire_attribute', u'monster_attribute', u'drug_attribute', u'ambush_agent', u'dealer_attribute', u'evil_attribute', u'alien_attribute', u'henchman_attribute', u'killer_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'give_agent', u'confront_agent', u'wound_patient', u'surprise_patient', u'explain_agent', u'overpower_agent', u'free_agent', u'father_attribute']
+descriptor 27:
+[u'be_agent', u'imprison_patient', u'free_patient', u'defeat_agent', u'rescue_attribute', u'capture_patient', u'reunite_patient', u'save_patient', u'rescue_patient', u'rescue_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'student_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'father_attribute', u'wife_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'son_attribute']
+writing trajectories...
+done with epoch:  21  cost = 0.761571772024 time:  1186.09669995
+descriptor 0:
+[u'win_agent', u'determine_patient', u'earn_agent', u'successful_attribute', u'accept_patient', u'marry_agent', u'succeed_agent', u'reject_agent', u'impress_agent', u'lose_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'worry_patient', u'arrange_agent', u'apologize_agent', u'perform_agent', u'follow_agent', u'fail_agent', u'buy_agent', u'devastate_patient']
+descriptor 2:
+[u'awaken_agent', u'crawl_agent', u'dive_agent', u'slam_agent', u'wander_agent', u'pop_agent', u'unconscious_attribute', u'emerge_agent', u'appear_patient', u'pull_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'track_agent', u'undercover_attribute', u'assign_patient']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'elderly_attribute', u'old_attribute', u'strange_attribute', u'middle-aged_attribute', u'many_attribute', u'same_attribute', u'poor_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'uncle_attribute', u'rich_attribute', u'former_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'pack_agent', u'upset_attribute', u'sure_attribute', u'worry_patient', u'worry_agent', u'surprised_attribute', u'happy_attribute', u'complain_agent']
+descriptor 7:
+[u'reply_agent', u'sing_agent', u'eat_agent', u'place_agent', u'leave_agent', u'school_attribute', u'stand_agent', u'give_patient', u'boy_attribute', u'destroy_patient']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'boy_attribute', u'daughter_attribute', u'sister_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'punch_agent', u'approach_agent', u'confirm_agent', u'accuse_agent', u'figure_agent', u'regret_agent', u'knock_agent', u'inform_agent']
+descriptor 10:
+[u'baby_attribute', u'teenage_attribute', u'girl_attribute', u'beautiful_attribute', u'little_attribute', u'daughter_attribute', u'sister_attribute', u'have_patient', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'grab_agent', u'fire_agent', u'lift_agent', u'pop_agent', u'toss_agent', u'throw_agent', u'pull_agent', u'knock_patient']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'character_attribute', u'student_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'parent_attribute', u'member_attribute', u'high_attribute', u'teacher_attribute', u'neighbor_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'live_patient', u'younger_attribute', u'baby_attribute', u'tell_patient', u'raise_patient', u'elder_attribute', u'bear_patient', u'older_attribute']
+descriptor 15:
+[u'find_agent', u'spot_agent', u'convince_patient', u'horrify_patient', u'attend_agent', u'panic_agent', u'offer_patient', u'approach_patient', u'smile_agent', u'rent_agent']
+descriptor 16:
+[u'be_agent', u'police_attribute', u'officer_attribute', u'man_attribute', u'pull_agent', u'woman_attribute', u'grab_agent', u'pick_agent', u'killer_attribute', u'local_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'escape_patient', u'commit_agent', u'new_attribute', u'murder_agent', u'free_patient', u'die_agent']
+descriptor 18:
+[u'tell_agent', u'decline_agent', u'explain_agent', u'annoy_patient', u'shock_patient', u'deny_agent', u'next_attribute', u'explain_patient', u'surprise_patient', u'worried_attribute']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'yell_agent', u'pull_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'alive_attribute', u'late_attribute', u'question_patient', u'shoot_patient', u'stab_patient', u'out_attribute', u'visit_attribute']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'find_patient', u'rescue_patient', u'reunite_patient', u'arrive_patient', u'come_patient', u'free_patient', u'hostage_attribute', u'save_patient']
+descriptor 22:
+[u'die_agent', u'murder_patient', u'own_attribute', u'murder_agent', u'boss_attribute', u'crime_attribute', u'abusive_attribute', u'serial_attribute', u'mob_attribute', u'receive_patient']
+descriptor 23:
+[u'go_agent', u'head_agent', u'sure_attribute', u'surprise_patient', u'warn_patient', u'grab_agent', u'draw_agent', u'suspicious_attribute', u'taunt_patient', u'annoyed_attribute']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'daughter_attribute', u'wife_attribute', u'girl_attribute', u'propose_patient', u'widow_attribute', u'attractive_attribute', u'pregnant_attribute', u'marry_patient']
+descriptor 25:
+[u'serial_attribute', u'vampire_attribute', u'monster_attribute', u'drug_attribute', u'ambush_agent', u'dealer_attribute', u'alien_attribute', u'evil_attribute', u'henchman_attribute', u'guard_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'give_agent', u'surprise_patient', u'confront_agent', u'explain_agent', u'father_attribute', u'state_agent', u'remember_agent', u'deny_agent']
+descriptor 27:
+[u'be_agent', u'free_patient', u'imprison_patient', u'rescue_attribute', u'reunite_patient', u'capture_patient', u'defeat_agent', u'save_patient', u'rescue_patient', u'reunite_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'student_attribute', u'guy_attribute']
+descriptor 29:
+[u'mother_attribute', u'wife_attribute', u'father_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'ill_attribute']
+writing trajectories...
+done with epoch:  22  cost = 0.761387371963 time:  1178.41618085
+descriptor 0:
+[u'win_agent', u'successful_attribute', u'determine_patient', u'earn_agent', u'accept_patient', u'marry_agent', u'succeed_agent', u'reject_agent', u'lose_agent', u'impress_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'worry_patient', u'perform_agent', u'arrange_agent', u'earn_agent', u'apologize_agent', u'fail_agent', u'buy_agent', u'devastate_patient']
+descriptor 2:
+[u'awaken_agent', u'crawl_agent', u'dive_agent', u'slam_agent', u'wander_agent', u'unconscious_attribute', u'pop_agent', u'emerge_agent', u'appear_patient', u'awaken_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'track_agent', u'assign_patient', u'undercover_attribute']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'elderly_attribute', u'old_attribute', u'middle-aged_attribute', u'strange_attribute', u'many_attribute', u'poor_attribute', u'same_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'uncle_attribute', u'rich_attribute', u'former_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'upset_attribute', u'pack_agent', u'sure_attribute', u'worry_patient', u'worry_agent', u'surprised_attribute', u'complain_agent', u'happy_attribute']
+descriptor 7:
+[u'reply_agent', u'place_agent', u'eat_agent', u'sing_agent', u'school_attribute', u'leave_agent', u'stand_agent', u'give_patient', u'boy_attribute', u'win_agent']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'sister_attribute', u'daughter_attribute', u'boy_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'punch_agent', u'confirm_agent', u'figure_agent', u'accuse_agent', u'inform_agent', u'knock_agent', u'regret_agent']
+descriptor 10:
+[u'baby_attribute', u'teenage_attribute', u'girl_attribute', u'beautiful_attribute', u'little_attribute', u'daughter_attribute', u'sister_attribute', u'have_patient', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'grab_agent', u'fire_agent', u'find_patient', u'lift_agent', u'toss_agent', u'pop_agent', u'throw_agent', u'pull_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'character_attribute', u'student_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'parent_attribute', u'member_attribute', u'high_attribute', u'teacher_attribute', u'partner_attribute']
+descriptor 14:
+[u'twin_attribute', u'own_attribute', u'live_patient', u'younger_attribute', u'baby_attribute', u'raise_patient', u'tell_patient', u'bear_patient', u'elder_attribute', u'teenage_attribute']
+descriptor 15:
+[u'find_agent', u'spot_agent', u'horrify_patient', u'convince_patient', u'attend_agent', u'panic_agent', u'confuse_patient', u'smile_agent', u'offer_patient', u'approach_patient']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'man_attribute', u'woman_attribute', u'pull_agent', u'local_attribute', u'grab_agent', u'pick_agent', u'killer_attribute']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'commit_agent', u'escape_patient', u'murder_agent', u'new_attribute', u'die_agent', u'visit_patient']
+descriptor 18:
+[u'tell_agent', u'decline_agent', u'annoy_patient', u'explain_agent', u'shock_patient', u'worry_patient', u'worried_attribute', u'reply_agent', u'explain_patient', u'suggest_agent']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'yell_agent', u'pull_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'alive_attribute', u'murder_patient', u'shoot_patient', u'late_attribute', u'stab_patient', u'question_patient', u'out_attribute', u'visit_attribute']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'find_patient', u'rescue_patient', u'reunite_patient', u'arrive_patient', u'come_patient', u'free_patient', u'capture_patient', u'save_patient']
+descriptor 22:
+[u'die_agent', u'murder_patient', u'own_attribute', u'murder_agent', u'boss_attribute', u'crime_attribute', u'abusive_attribute', u'serial_attribute', u'receive_patient', u'mob_attribute']
+descriptor 23:
+[u'go_agent', u'sure_attribute', u'head_agent', u'surprise_patient', u'grab_agent', u'smile_agent', u'annoyed_attribute', u'warn_patient', u'sit_agent', u'stare_patient']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'daughter_attribute', u'wife_attribute', u'propose_patient', u'girl_attribute', u'widow_attribute', u'pregnant_attribute', u'marry_patient', u'attractive_attribute']
+descriptor 25:
+[u'serial_attribute', u'vampire_attribute', u'monster_attribute', u'drug_attribute', u'ambush_agent', u'dealer_attribute', u'alien_attribute', u'evil_attribute', u'henchman_attribute', u'guard_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'give_agent', u'explain_agent', u'confront_agent', u'surprise_patient', u'remember_agent', u'wound_patient', u'father_attribute', u'explain_patient']
+descriptor 27:
+[u'be_agent', u'imprison_patient', u'free_patient', u'rescue_attribute', u'defeat_agent', u'capture_patient', u'reunite_patient', u'save_patient', u'rescue_patient', u'reunite_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'guy_attribute', u'student_attribute']
+descriptor 29:
+[u'mother_attribute', u'father_attribute', u'wife_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'son_attribute']
+writing trajectories...
+done with epoch:  23  cost = 0.76132308974 time:  1176.49300599
+descriptor 0:
+[u'win_agent', u'determine_patient', u'successful_attribute', u'earn_agent', u'marry_agent', u'accept_patient', u'succeed_agent', u'lose_agent', u'reject_agent', u'impress_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'worry_patient', u'perform_agent', u'follow_agent', u'apologize_agent', u'devastate_patient', u'flirt_patient', u'earn_agent', u'fail_agent']
+descriptor 2:
+[u'awaken_agent', u'crawl_agent', u'wander_agent', u'dive_agent', u'slam_agent', u'unconscious_attribute', u'pop_agent', u'appear_patient', u'emerge_agent', u'awaken_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'track_agent', u'assign_patient', u'undercover_attribute']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'elderly_attribute', u'old_attribute', u'middle-aged_attribute', u'strange_attribute', u'many_attribute', u'poor_attribute', u'same_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'uncle_attribute', u'rich_attribute', u'former_attribute']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'upset_attribute', u'pack_agent', u'sure_attribute', u'worry_patient', u'surprised_attribute', u'worry_agent', u'happy_attribute', u'complain_agent']
+descriptor 7:
+[u'reply_agent', u'place_agent', u'eat_agent', u'sing_agent', u'school_attribute', u'stand_agent', u'leave_agent', u'destroy_patient', u'give_patient', u'boy_attribute']
+descriptor 8:
+[u'child_attribute', u'son_attribute', u'brother_attribute', u'sister_attribute', u'daughter_attribute', u'boy_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'approach_agent', u'punch_agent', u'confirm_agent', u'inform_agent', u'accuse_agent', u'figure_agent', u'knock_agent', u'challenge_agent']
+descriptor 10:
+[u'baby_attribute', u'teenage_attribute', u'girl_attribute', u'little_attribute', u'beautiful_attribute', u'daughter_attribute', u'sister_attribute', u'have_patient', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'grab_agent', u'fire_agent', u'find_patient', u'lift_agent', u'toss_agent', u'pull_agent', u'throw_agent', u'pop_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'character_attribute', u'student_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'parent_attribute', u'member_attribute', u'high_attribute', u'neighbor_attribute', u'guy_attribute']
+descriptor 14:
+[u'twin_attribute', u'live_patient', u'younger_attribute', u'own_attribute', u'baby_attribute', u'tell_patient', u'raise_patient', u'bear_patient', u'elder_attribute', u'older_attribute']
+descriptor 15:
+[u'find_agent', u'spot_agent', u'horrify_patient', u'panic_agent', u'attend_agent', u'smile_agent', u'confuse_patient', u'convince_patient', u'approach_patient', u'disturb_patient']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'man_attribute', u'woman_attribute', u'pull_agent', u'local_attribute', u'killer_attribute', u'grab_agent', u'pick_agent']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'escape_patient', u'commit_agent', u'new_attribute', u'murder_agent', u'consist_patient', u'die_agent']
+descriptor 18:
+[u'tell_agent', u'annoy_patient', u'decline_agent', u'explain_agent', u'shock_patient', u'worried_attribute', u'late_attribute', u'worry_patient', u'reply_agent', u'explain_patient']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'yell_agent', u'pull_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'alive_attribute', u'late_attribute', u'visit_attribute', u'question_patient', u'out_attribute', u'threaten_patient', u'forgive_patient']
+descriptor 21:
+[u'meet_patient', u'find_patient', u'kidnap_patient', u'rescue_patient', u'reunite_patient', u'arrive_patient', u'come_patient', u'free_patient', u'capture_patient', u'hostage_attribute']
+descriptor 22:
+[u'die_agent', u'murder_patient', u'own_attribute', u'murder_agent', u'boss_attribute', u'abusive_attribute', u'crime_attribute', u'receive_patient', u'serial_attribute', u'live_patient']
+descriptor 23:
+[u'go_agent', u'sure_attribute', u'head_agent', u'annoyed_attribute', u'surprise_patient', u'smile_agent', u'warn_patient', u'grab_agent', u'sit_agent', u'stare_patient']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'daughter_attribute', u'wife_attribute', u'propose_patient', u'girl_attribute', u'widow_attribute', u'pregnant_attribute', u'marry_patient', u'attractive_attribute']
+descriptor 25:
+[u'serial_attribute', u'vampire_attribute', u'drug_attribute', u'monster_attribute', u'ambush_agent', u'dealer_attribute', u'evil_attribute', u'alien_attribute', u'henchman_attribute', u'killer_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'give_agent', u'confront_agent', u'explain_agent', u'free_agent', u'wound_patient', u'surprise_patient', u'remember_agent', u'promise_agent']
+descriptor 27:
+[u'be_agent', u'imprison_patient', u'free_patient', u'reunite_patient', u'defeat_agent', u'rescue_attribute', u'capture_patient', u'save_patient', u'rescue_patient', u'reunite_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'person_attribute', u'member_attribute', u'guy_attribute', u'student_attribute']
+descriptor 29:
+[u'mother_attribute', u'father_attribute', u'wife_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'son_attribute']
+writing trajectories...
+done with epoch:  24  cost = 0.761255079986 time:  1192.28053784
+descriptor 0:
+[u'win_agent', u'determine_patient', u'earn_agent', u'successful_attribute', u'accept_patient', u'marry_agent', u'succeed_agent', u'lose_agent', u'reject_agent', u'impress_agent']
+descriptor 1:
+[u'have_agent', u'forgive_patient', u'worry_patient', u'perform_agent', u'apologize_agent', u'follow_agent', u'fail_agent', u'earn_agent', u'flirt_patient', u'devastate_patient']
+descriptor 2:
+[u'awaken_agent', u'crawl_agent', u'dive_agent', u'slam_agent', u'wander_agent', u'unconscious_attribute', u'pop_agent', u'emerge_agent', u'appear_patient', u'pull_patient']
+descriptor 3:
+[u'detective_attribute', u'private_attribute', u'investigate_agent', u'police_attribute', u'investigator_attribute', u'agent_attribute', u'deduce_agent', u'track_agent', u'undercover_attribute', u'assign_patient']
+descriptor 4:
+[u'young_attribute', u'mysterious_attribute', u'white_attribute', u'elderly_attribute', u'old_attribute', u'middle-aged_attribute', u'strange_attribute', u'poor_attribute', u'many_attribute', u'same_attribute']
+descriptor 5:
+[u'boss_attribute', u'wealthy_attribute', u'owner_attribute', u'businessman_attribute', u'business_attribute', u'partner_attribute', u'manager_attribute', u'uncle_attribute', u'former_attribute', u'hire_agent']
+descriptor 6:
+[u'worried_attribute', u'reassure_patient', u'upset_attribute', u'pack_agent', u'sure_attribute', u'worry_patient', u'surprised_attribute', u'worry_agent', u'happy_attribute', u'complain_agent']
+descriptor 7:
+[u'reply_agent', u'place_agent', u'eat_agent', u'sing_agent', u'school_attribute', u'stand_agent', u'boy_attribute', u'leave_agent', u'destroy_patient', u'give_patient']
+descriptor 8:
+[u'son_attribute', u'child_attribute', u'brother_attribute', u'sister_attribute', u'daughter_attribute', u'boy_attribute', u'baby_attribute', u'kid_attribute', u'orphan_attribute', u'girl_attribute']
+descriptor 9:
+[u'take_agent', u'overhear_agent', u'punch_agent', u'approach_agent', u'confirm_agent', u'accuse_agent', u'inform_agent', u'figure_agent', u'regret_agent', u'knock_agent']
+descriptor 10:
+[u'baby_attribute', u'teenage_attribute', u'girl_attribute', u'little_attribute', u'beautiful_attribute', u'daughter_attribute', u'sister_attribute', u'have_patient', u'orphan_attribute', u'want_patient']
+descriptor 11:
+[u'try_agent', u'chase_agent', u'grab_agent', u'fire_agent', u'find_patient', u'lift_agent', u'pop_agent', u'pull_agent', u'throw_agent', u'drag_agent']
+descriptor 12:
+[u'school_attribute', u'high_attribute', u'college_attribute', u'character_attribute', u'student_attribute', u'teacher_attribute', u'main_attribute', u'fellow_attribute', u'female_attribute', u'american_attribute']
+descriptor 13:
+[u'friend_attribute', u'boyfriend_attribute', u'girlfriend_attribute', u'student_attribute', u'sweetheart_attribute', u'parent_attribute', u'member_attribute', u'high_attribute', u'teacher_attribute', u'neighbor_attribute']
+descriptor 14:
+[u'twin_attribute', u'tell_patient', u'own_attribute', u'younger_attribute', u'live_patient', u'baby_attribute', u'raise_patient', u'elder_attribute', u'bear_patient', u'older_attribute']
+descriptor 15:
+[u'find_agent', u'horrify_patient', u'spot_agent', u'attend_agent', u'convince_patient', u'panic_agent', u'offer_patient', u'approach_patient', u'smile_agent', u'confuse_patient']
+descriptor 16:
+[u'police_attribute', u'be_agent', u'officer_attribute', u'man_attribute', u'woman_attribute', u'local_attribute', u'pull_agent', u'killer_attribute', u'grab_agent', u'pick_agent']
+descriptor 17:
+[u'kill_patient', u'killer_attribute', u'evil_attribute', u'gang_attribute', u'escape_patient', u'commit_agent', u'murder_agent', u'new_attribute', u'die_agent', u'consist_patient']
+descriptor 18:
+[u'tell_agent', u'decline_agent', u'explain_agent', u'annoy_patient', u'shock_patient', u'reply_agent', u'worried_attribute', u'explain_patient', u'worry_patient', u'next_attribute']
+descriptor 19:
+[u'pop_agent', u'grab_agent', u'slam_agent', u'lift_agent', u'pull_agent', u'yell_agent', u'chase_agent', u'hit_agent', u'toss_agent', u'shove_agent']
+descriptor 20:
+[u'leave_agent', u'dead_attribute', u'murder_patient', u'alive_attribute', u'late_attribute', u'question_patient', u'out_attribute', u'visit_attribute', u'threaten_patient', u'shoot_patient']
+descriptor 21:
+[u'meet_patient', u'kidnap_patient', u'find_patient', u'rescue_patient', u'reunite_patient', u'arrive_patient', u'free_patient', u'rescue_attribute', u'come_patient', u'save_patient']
+descriptor 22:
+[u'die_agent', u'murder_patient', u'own_attribute', u'murder_agent', u'abusive_attribute', u'serial_attribute', u'boss_attribute', u'crime_attribute', u'receive_patient', u'live_patient']
+descriptor 23:
+[u'go_agent', u'sure_attribute', u'head_agent', u'grab_agent', u'annoyed_attribute', u'surprise_patient', u'smile_agent', u'warn_patient', u'sit_agent', u'spot_agent']
+descriptor 24:
+[u'beautiful_attribute', u'woman_attribute', u'daughter_attribute', u'wife_attribute', u'propose_patient', u'girl_attribute', u'widow_attribute', u'pregnant_attribute', u'attractive_attribute', u'marry_patient']
+descriptor 25:
+[u'serial_attribute', u'vampire_attribute', u'monster_attribute', u'drug_attribute', u'ambush_agent', u'dealer_attribute', u'alien_attribute', u'evil_attribute', u'henchman_attribute', u'guard_attribute']
+descriptor 26:
+[u'take_patient', u'tell_patient', u'give_agent', u'confront_agent', u'free_agent', u'wound_patient', u'explain_agent', u'surprise_patient', u'remember_agent', u'destroy_agent']
+descriptor 27:
+[u'be_agent', u'imprison_patient', u'free_patient', u'reunite_patient', u'rescue_attribute', u'defeat_agent', u'capture_patient', u'save_patient', u'rescue_patient', u'reunite_agent']
+descriptor 28:
+[u'man_attribute', u'woman_attribute', u'boy_attribute', u'girl_attribute', u'lady_attribute', u'soldier_attribute', u'member_attribute', u'person_attribute', u'guy_attribute', u'student_attribute']
+descriptor 29:
+[u'mother_attribute', u'father_attribute', u'wife_attribute', u'parent_attribute', u'sister_attribute', u'brother_attribute', u'husband_attribute', u'grandmother_attribute', u'child_attribute', u'son_attribute']
+writing trajectories...
+done with epoch:  25  cost = 0.76071858335 time:  1168.19653392
+done with epoch:  26  cost = 0.760829141778 time:  1177.12656713
+done with epoch:  27  cost = 0.760996411865 time:  1173.65012598
+done with epoch:  28  cost = 0.760848264661 time:  1215.76857615
+done with epoch:  29  cost = 0.760920455833 time:  1165.30039001

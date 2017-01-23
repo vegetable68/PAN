@@ -68,15 +68,12 @@ class MixingLayer(lasagne.layers.MergeLayer):
             (d, d), name='W_m')
         self.b_m = self.add_param(lasagne.init.Constant(0), 
             (d,), name='b_m')
-       # self.W_char = self.add_param(lasagne.init.GlorotUniform(), 
-       #     (d, d_char), name='W_char') 
         self.W_book = self.add_param(lasagne.init.GlorotUniform(), 
             (d, d_book), name='W_book') 
         self.f = lasagne.nonlinearities.rectify
 
     def get_output_for(self, inputs, **kwargs):
         spanvec = T.dot(inputs[0], self.W_m) + self.b_m
-#        cvec = T.dot(self.W_char, T.sum(inputs[1], axis=0))
         bvec = T.dot(self.W_book, T.flatten(inputs[1]))
         return self.f(spanvec + bvec[None, :]) # + cvec[None, :])
 
