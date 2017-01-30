@@ -1,0 +1,400 @@
+loading data...
+300 127 30 1420 3 39547 36144 187530
+compiling...
+done compiling, now training...
+descriptor 0:
+['lead_Attribute', 'bank_Attribute', 'real_Attribute', 'alert_Agent', 'short_Attribute', 'finish_Patient', 'sabotage_Agent', 'complain_Patient', 'threaten_Agent', 'third_Attribute']
+descriptor 1:
+['please_Patient', 'stop_Patient', 'tough_Attribute', 'flirt_Patient', 'discover_Patient', 'send_Patient', 'rebuff_Patient', 'go_Patient', 'follow_Patient', 'invite_Patient']
+descriptor 2:
+['warn_Patient', 'inspire_Patient', 'provoke_Patient', 'befriend_Patient', 'seek_Patient', 'help_Patient', 'threaten_Patient', 'frighten_Patient', 'encourage_Patient', 'bring_Patient']
+descriptor 3:
+['mother-in-law_Attribute', 'suitor_Attribute', 'begin_Agent', 'show_Agent', 'attendant_Attribute', 'co-worker_Attribute', 'organize_Agent', 'start_Agent', 'sister-in-law_Attribute', 'talk_Agent']
+descriptor 4:
+['mother-in-law_Attribute', 'talk_Agent', 'write_Agent', 'tell_Agent', 'ask_Agent', 'give_Agent', 'show_Agent', 'sister-in-law_Attribute', 'come_Agent', 'do_Agent']
+descriptor 5:
+['shoot_Patient', 'smuggle_Patient', 'go_Patient', 'assassinate_Patient', 'want_Patient', 'intercept_Patient', 'kill_Patient', 'abduct_Patient', 'kidnap_Patient', 'harass_Patient']
+descriptor 6:
+['mother-in-law_Attribute', 'show_Agent', 'begin_Agent', 'talk_Agent', 'bring_Agent', 'start_Agent', 'go_Agent', 'give_Agent', 'hear_Agent', 'help_Agent']
+descriptor 7:
+['bank_Attribute', 'talk_Agent', 'move_Agent', 'see_Agent', 'discuss_Agent', 'show_Agent', 'change_Agent', 'threaten_Agent', 'tell_Agent', 'look_Agent']
+descriptor 8:
+['shock_Patient', 'sign_Agent', 'offer_Agent', 'close_Agent', 'befriend_Agent', 'relent_Agent', 'warn_Agent', 'town_Attribute', 'rebuff_Agent', 'take_Agent']
+descriptor 9:
+['mother-in-law_Attribute', 'suitor_Attribute', 'begin_Agent', 'show_Agent', 'attendant_Attribute', 'co-worker_Attribute', 'start_Agent', 'sister-in-law_Attribute', 'talk_Agent', 'organize_Agent']
+descriptor 10:
+['mother-in-law_Attribute', 'suitor_Attribute', 'begin_Agent', 'show_Agent', 'start_Agent', 'co-worker_Attribute', 'talk_Agent', 'attendant_Attribute', 'organize_Agent', 'sister-in-law_Attribute']
+descriptor 11:
+['disappoint_Patient', 'banish_Patient', 'frustrate_Patient', 'inspire_Patient', 'shout_Patient', 'bug_Attribute', 'intrigue_Patient', 'fascinate_Patient', 'surround_Patient', 'distract_Patient']
+descriptor 12:
+['await_Patient', 'announce_Patient', 'begin_Patient', 'disappoint_Patient', 'please_Patient', 'feature_Patient', 'intrigue_Patient', 'continue_Patient', 'start_Patient', 'woo_Patient']
+descriptor 13:
+['mother-in-law_Attribute', 'suitor_Attribute', 'begin_Agent', 'show_Agent', 'co-worker_Attribute', 'attendant_Attribute', 'start_Agent', 'organize_Agent', 'talk_Agent', 'sister-in-law_Attribute']
+descriptor 14:
+['kill_Patient', 'befriend_Patient', 'help_Patient', 'destroy_Patient', 'want_Patient', 'meet_Patient', 'seek_Patient', 'kidnap_Patient', 'convince_Patient', 'let_Patient']
+descriptor 15:
+['suitor_Attribute', 'attendant_Attribute', 'mother-in-law_Attribute', 'partner_Attribute', 'bug_Attribute', 'co-worker_Attribute', 'stranger_Attribute', 'specialist_Attribute', 'organize_Agent', 'sibling_Attribute']
+descriptor 16:
+['disappoint_Patient', 'apologize_Patient', 'disgust_Patient', 'dismiss_Patient', 'haunt_Patient', 'recapture_Patient', 'carry_Agent', 'female_Attribute', 'male_Attribute', 'english_Attribute']
+descriptor 17:
+['bank_Attribute', 'banker_Attribute', 'corner_Patient', 'happen_Agent', 'mom_Attribute', 'focus_Agent', 'show_Agent', 'unleash_Agent', 'inspire_Agent', 'stage_Agent']
+descriptor 18:
+['mother-in-law_Attribute', 'suitor_Attribute', 'begin_Agent', 'show_Agent', 'co-worker_Attribute', 'attendant_Attribute', 'sister-in-law_Attribute', 'start_Agent', 'niece_Attribute', 'aunt_Attribute']
+descriptor 19:
+['console_Patient', 'bank_Attribute', 'injure_Patient', 'restore_Patient', 'execute_Patient', 'finish_Patient', 'knock_Patient', 'grab_Patient', 'revive_Patient', 'kick_Patient']
+descriptor 20:
+['mother-in-law_Attribute', 'begin_Agent', 'suitor_Attribute', 'show_Agent', 'start_Agent', 'co-worker_Attribute', 'talk_Agent', 'sister-in-law_Attribute', 'attendant_Attribute', 'organize_Agent']
+descriptor 21:
+['start_Patient', 'fairy_Attribute', 'send_Patient', 'begin_Patient', 'learn_Patient', 'mistake_Patient', 'attempt_Patient', 'direct_Patient', 'finish_Patient', 'ignore_Patient']
+descriptor 22:
+['mother-in-law_Attribute', 'suitor_Attribute', 'show_Agent', 'begin_Agent', 'attendant_Attribute', 'co-worker_Attribute', 'organize_Agent', 'sister-in-law_Attribute', 'prepare_Agent', 'talk_Agent']
+descriptor 23:
+['mother-in-law_Attribute', 'suitor_Attribute', 'begin_Agent', 'show_Agent', 'talk_Agent', 'start_Agent', 'co-worker_Attribute', 'organize_Agent', 'help_Agent', 'bring_Agent']
+descriptor 24:
+['give_Agent', 'take_Agent', 'go_Agent', 'let_Agent', 'ask_Agent', 'do_Agent', 'want_Agent', 'feel_Agent', 'make_Agent', 'tell_Agent']
+descriptor 25:
+['kill_Patient', 'befriend_Patient', 'want_Patient', 'help_Patient', 'meet_Patient', 'destroy_Patient', 'kidnap_Patient', 'seek_Patient', 'let_Patient', 'abduct_Patient']
+descriptor 26:
+['mother-in-law_Attribute', 'suitor_Attribute', 'attendant_Attribute', 'begin_Agent', 'show_Agent', 'co-worker_Attribute', 'sister-in-law_Attribute', 'niece_Attribute', 'aunt_Attribute', 'granddaughter_Attribute']
+descriptor 27:
+['shoot_Patient', 'smuggle_Patient', 'harass_Patient', 'intercept_Patient', 'get_Patient', 'go_Patient', 'want_Patient', 'take_Patient', 'kidnap_Patient', 'abduct_Patient']
+descriptor 28:
+['dealer_Attribute', 'escort_Attribute', 'disappoint_Patient', 'chinese_Attribute', 'congratulate_Patient', 'japanese_Attribute', 'alert_Agent', 'finish_Patient', 'street_Attribute', 'awaken_Agent']
+descriptor 29:
+['mother-in-law_Attribute', 'begin_Agent', 'suitor_Attribute', 'show_Agent', 'talk_Agent', 'start_Agent', 'co-worker_Attribute', 'organize_Agent', 'prepare_Agent', 'discuss_Agent']
+writing trajectories...
+done with epoch:  0  cost = 0.451292253218 time:  3008.36793995
+descriptor 0:
+['sympathetic_Attribute', 'hesitant_Attribute', 'nervous_Attribute', 'much_Attribute', 'kind_Attribute', 'get_Patient', 'better_Attribute', 'impressed_Attribute']
+descriptor 1:
+['villa_Attribute', 'sympathetic_Attribute', 'french_Attribute', 'villager_Attribute', 'private_Attribute', 'kind_Attribute', 'charming_Attribute', 'village_Attribute', 'good_Attribute', 'great_Attribute']
+descriptor 2:
+['find_Agent', 'tell_Agent', 'see_Agent', 'want_Agent', 'go_Agent', 'take_Agent', 'let_Agent', 'look_Agent', 'get_Agent', 'give_Agent']
+descriptor 3:
+['young_Attribute', 'aged_Attribute', 'younger_Attribute', 'eldest_Attribute', 'housewife_Attribute', 'father_Attribute', 'married_Attribute', 'youngest_Attribute', 'old_Attribute', 'black_Attribute']
+descriptor 4:
+['father_Attribute', 'housewife_Attribute', 'abducted_Attribute', 'young_Attribute', 'stepfather_Attribute', 'eldest_Attribute', 'innocent_Attribute', 'wife_Attribute', 'boy_Attribute', 'aged_Attribute']
+descriptor 5:
+['father_Attribute', 'mother_Attribute', 'husband_Attribute', 'woman_Attribute', 'wife_Attribute', 'daughter_Attribute', 'scientist_Attribute', 'stepfather_Attribute', 'friend_Attribute', 'murderer_Attribute']
+descriptor 6:
+['abducted_Attribute', 'tortured_Attribute', 'innocent_Attribute', 'prisoner_Attribute', 'policeman_Attribute', 'slave_Attribute', 'father_Attribute', 'cruel_Attribute', 'enraged_Attribute', 'frightened_Attribute']
+descriptor 7:
+['villager_Attribute', 'orphan_Attribute', 'frightened_Attribute', 'elder_Attribute', 'patron_Attribute', 'physician_Attribute', 'wizard_Attribute', 'ghost_Attribute', 'shout_Patient', 'visitor_Attribute']
+descriptor 8:
+['greet_Agent', 'kidnap_Agent', 'kidnapper_Attribute', 'murderer_Attribute', 'thief_Attribute', 'hang_Agent', 'befriend_Agent', 'reunite_Agent', 'strangle_Agent', 'beggar_Attribute']
+descriptor 9:
+['aged_Attribute', 'young_Attribute', 'younger_Attribute', 'housewife_Attribute', 'old_Attribute', 'fly_Agent', 'innocent_Attribute', 'married_Attribute', 'abducted_Attribute', 'widower_Attribute']
+descriptor 10:
+['tortured_Attribute', 'abducted_Attribute', 'innocent_Attribute', 'frightened_Attribute', 'father_Attribute', 'young_Attribute', 'widower_Attribute', 'angry_Attribute', 'enraged_Attribute', 'distraught_Attribute']
+descriptor 11:
+['aging_Attribute', 'specialist_Attribute', 'good_Attribute', 'better_Attribute', 'villager_Attribute', 'older_Attribute', 'fighter_Attribute', 'great_Attribute', 'drive_Patient', 'friendly_Attribute']
+descriptor 12:
+['villa_Attribute', 'ride_Patient', 'great_Attribute', 'run_Patient', 'crash_Patient', 'french_Attribute', 'charming_Attribute', 'drive_Patient', 'good_Attribute', 'british_Attribute']
+descriptor 13:
+['claim_Agent', 'crash_Agent', 'band_Attribute', 'pin_Patient', 'alert_Agent', 'rebuff_Patient', 'eldest_Attribute', 'tie_Patient', 'cause_Agent', 'point_Agent']
+descriptor 14:
+['father_Attribute', 'mother_Attribute', 'wife_Attribute', 'daughter_Attribute', 'stepfather_Attribute', 'woman_Attribute', 'husband_Attribute', 'murderer_Attribute', 'brother_Attribute', 'son_Attribute']
+descriptor 15:
+['mother_Attribute', 'father_Attribute', 'stepfather_Attribute', 'daughter_Attribute', 'brother_Attribute', 'inmate_Attribute', 'ex-boyfriend_Attribute', 'wife_Attribute', 'friend_Attribute', 'co-worker_Attribute']
+descriptor 16:
+['younger_Attribute', 'older_Attribute', 'young_Attribute', 'old_Attribute', 'eldest_Attribute', 'nephew_Attribute', 'aging_Attribute', 'widower_Attribute', 'aged_Attribute', 'daughter_Attribute']
+descriptor 17:
+['enjoy_Patient', 'ambitious_Attribute', 'plan_Attribute', 'offer_Patient', 'dance_Patient', 'wake_Agent', 'sympathetic_Attribute', 'ride_Patient', 'french_Attribute', 'feature_Patient']
+descriptor 18:
+['abducted_Attribute', 'tortured_Attribute', 'father_Attribute', 'innocent_Attribute', 'prisoner_Attribute', 'policeman_Attribute', 'widow_Attribute', 'stepfather_Attribute', 'slave_Attribute', 'wife_Attribute']
+descriptor 19:
+['villager_Attribute', 'sympathetic_Attribute', 'pass_Patient', 'drive_Patient', 'naive_Attribute', 'ambitious_Attribute', 'obtain_Agent', 'crash_Patient', 'loyal_Attribute', 'run_Patient']
+descriptor 20:
+['innocent_Attribute', 'abducted_Attribute', 'tortured_Attribute', 'housewife_Attribute', 'father_Attribute', 'policeman_Attribute', 'widower_Attribute', 'young_Attribute', 'wealthy_Attribute', 'frightened_Attribute']
+descriptor 21:
+['expel_Patient', 'sympathetic_Attribute', 'music_Attribute', 'rebuff_Patient', 'newspaper_Attribute', 'obtain_Agent', 'wake_Patient', 'film_Attribute', 'nervous_Attribute']
+descriptor 22:
+['abducted_Attribute', 'innocent_Attribute', 'tortured_Attribute', 'aged_Attribute', 'young_Attribute', 'father_Attribute', 'widower_Attribute', 'black_Attribute', 'gang_Attribute', 'boy_Attribute']
+descriptor 23:
+['younger_Attribute', 'young_Attribute', 'older_Attribute', 'old_Attribute', 'aged_Attribute', 'middle-aged_Attribute', 'eldest_Attribute', 'widower_Attribute', 'frightened_Attribute', 'middle_Attribute']
+descriptor 24:
+['ask_Agent', 'want_Agent', 'talk_Agent', 'tell_Agent', 'let_Agent', 'give_Agent', 'go_Agent', 'hear_Agent', 'take_Agent', 'know_Agent']
+descriptor 25:
+['father_Attribute', 'mother_Attribute', 'wife_Attribute', 'daughter_Attribute', 'woman_Attribute', 'stepfather_Attribute', 'husband_Attribute', 'murderer_Attribute', 'brother_Attribute', 'son_Attribute']
+descriptor 26:
+['abducted_Attribute', 'tortured_Attribute', 'father_Attribute', 'innocent_Attribute', 'prisoner_Attribute', 'policeman_Attribute', 'slave_Attribute', 'stepfather_Attribute', 'wife_Attribute', 'widow_Attribute']
+descriptor 27:
+['play_Agent', 'band_Attribute', 'point_Agent', 'police_Attribute', 'earn_Agent', 'slip_Agent', 'confirm_Agent', 'violent_Attribute', 'spy_Agent', 'lock_Agent']
+descriptor 28:
+['villa_Attribute', 'older_Attribute', 'old_Attribute', 'british_Attribute', 'younger_Attribute', 'max_Attribute', 'uncle_Attribute', 'nephew_Attribute', 'loyal_Attribute', 'newspaper_Attribute']
+descriptor 29:
+['older_Attribute', 'younger_Attribute', 'job_Attribute', 'young_Attribute', 'old_Attribute', 'aging_Attribute', 'middle-aged_Attribute', 'ride_Patient', 'elderly_Attribute', 'college_Attribute']
+writing trajectories...
+done with epoch:  1  cost = 0.441024527937 time:  2995.21664119
+descriptor 0:
+['write_Agent', 'read_Agent', 'interrupt_Patient', 'feed_Agent', 'awake_Agent', 'impressed_Attribute', 'deduce_Agent', 'answer_Agent', 'ready_Attribute']
+descriptor 1:
+['villa_Attribute', 'sympathetic_Attribute', 'apologize_Patient', 'expel_Patient', 'listen_Agent', 'assassinate_Patient', 'painter_Attribute', 'rescue_Attribute']
+descriptor 2:
+['look_Agent', 'know_Agent', 'find_Agent', 'see_Agent', 'get_Agent', 'tell_Agent', 'take_Agent', 'feel_Agent', 'do_Agent', 'want_Agent']
+descriptor 3:
+['look_Agent', 'find_Agent', 'see_Agent', 'psychiatrist_Attribute', 'doctor_Attribute', 'officer_Attribute', 'friend_Attribute', 'father_Attribute', 'policeman_Attribute', 'accountant_Attribute']
+descriptor 4:
+['look_Agent', 'find_Agent', 'see_Agent', 'psychiatrist_Attribute', 'doctor_Attribute', 'friend_Attribute', 'officer_Attribute', 'father_Attribute', 'assistant_Attribute', 'policeman_Attribute']
+descriptor 5:
+['mother_Attribute', 'wife_Attribute', 'father_Attribute', 'woman_Attribute', 'daughter_Attribute', 'husband_Attribute', 'stepfather_Attribute', 'heiress_Attribute', 'widow_Attribute', 'socialite_Attribute']
+descriptor 6:
+['find_Agent', 'teacher_Attribute', 'look_Agent', 'see_Agent', 'friend_Attribute', 'abducted_Attribute', 'mom_Attribute', 'brother_Attribute', 'dad_Attribute', 'janitor_Attribute']
+descriptor 7:
+['inspector_Attribute', 'touch_Agent', 'lieutenant_Attribute', 'show_Patient', 'colonel_Attribute', 'clean_Agent', 'horrify_Patient', 'place_Agent', 'give_Agent', 'release_Patient']
+descriptor 8:
+['stalk_Patient', 'build_Patient', 'target_Patient', 'sleep_Agent', 'wake_Agent', 'abduct_Agent', 'dealer_Attribute', 'reach_Patient', 'release_Patient']
+descriptor 9:
+['look_Agent', 'find_Agent', 'see_Agent', 'psychiatrist_Attribute', 'doctor_Attribute', 'friend_Attribute', 'officer_Attribute', 'know_Agent', 'psychologist_Attribute', 'accountant_Attribute']
+descriptor 10:
+['look_Agent', 'find_Agent', 'psychiatrist_Attribute', 'doctor_Attribute', 'friend_Attribute', 'see_Agent', 'officer_Attribute', 'father_Attribute', 'policeman_Attribute', 'uncle_Attribute']
+descriptor 11:
+['attendant_Attribute', 'boxer_Attribute', 'fighter_Attribute', 'filmmaker_Attribute', 'villager_Attribute', 'surgeon_Attribute', 'inmate_Attribute', 'comrade_Attribute', 'film_Attribute', 'rescue_Attribute']
+descriptor 12:
+['villa_Attribute', 'charming_Attribute', 'surgeon_Attribute', 'newspaper_Attribute', 'naive_Attribute', 'author_Attribute', 'peasant_Attribute', 'painter_Attribute', 'physician_Attribute', 'short_Attribute']
+descriptor 13:
+['look_Agent', 'find_Agent', 'see_Agent', 'know_Agent', 'experience_Agent', 'have_Agent', 'doctor_Attribute', 'psychiatrist_Attribute', 'get_Agent', 'officer_Attribute']
+descriptor 14:
+['mother_Attribute', 'wife_Attribute', 'father_Attribute', 'husband_Attribute', 'daughter_Attribute', 'woman_Attribute', 'stepfather_Attribute', 'uncle_Attribute', 'friend_Attribute', 'widow_Attribute']
+descriptor 15:
+['star_Agent', 'cast_Agent', 'abusive_Attribute', 'wonder_Agent', 'spot_Agent', 'old_Attribute', 'sick_Attribute', 'dad_Attribute', 'terrorist_Attribute', 'look_Agent']
+descriptor 16:
+['hire_Agent', 'run_Patient', 'surgeon_Attribute', 'specialist_Attribute', 'prince_Attribute', 'doctor_Attribute', 'aging_Attribute', 'launch_Patient', 'study_Patient']
+descriptor 17:
+['surgeon_Attribute', 'awake_Agent', 'unleash_Agent', 'dance_Patient', 'bring_Agent', 'imprison_Agent', 'physician_Attribute', 'keep_Agent', 'run_Patient', 'forgive_Patient']
+descriptor 18:
+['housekeeper_Attribute', 'friend_Attribute', 'wife_Attribute', 'abducted_Attribute', 'janitor_Attribute', 'resident_Attribute', 'psychologist_Attribute', 'psychiatrist_Attribute', 'brother_Attribute', 'scientist_Attribute']
+descriptor 19:
+['comrade_Attribute', 'villager_Attribute', 'expel_Patient', 'attendant_Attribute', 'prompt_Patient', 'rescue_Attribute', 'frightened_Attribute', 'suitor_Attribute', 'silent_Attribute', 'emperor_Attribute']
+descriptor 20:
+['friend_Attribute', 'father_Attribute', 'psychiatrist_Attribute', 'doctor_Attribute', 'uncle_Attribute', 'officer_Attribute', 'brother_Attribute', 'policeman_Attribute', 'assistant_Attribute', 'teenager_Attribute']
+descriptor 21:
+['expel_Patient', 'military_Attribute', 'civilian_Attribute', 'sympathetic_Attribute', 'groom_Attribute', 'white_Attribute', 'file_Agent', 'read_Agent', 'female_Attribute', 'country_Attribute']
+descriptor 22:
+['psychiatrist_Attribute', 'doctor_Attribute', 'friend_Attribute', 'find_Agent', 'father_Attribute', 'look_Agent', 'officer_Attribute', 'uncle_Attribute', 'policeman_Attribute', 'dad_Attribute']
+descriptor 23:
+['look_Agent', 'find_Agent', 'see_Agent', 'psychiatrist_Attribute', 'doctor_Attribute', 'officer_Attribute', 'experience_Agent', 'accountant_Attribute', 'know_Agent', 'policeman_Attribute']
+descriptor 24:
+['confront_Patient', 'intimidate_Patient', 'humiliate_Patient', 'persuade_Patient', 'convince_Patient', 'ignore_Patient', 'betray_Patient', 'embarrass_Patient', 'seduce_Patient', 'deny_Patient']
+descriptor 25:
+['look_Agent', 'find_Agent', 'see_Agent', 'know_Agent', 'experience_Agent', 'get_Agent', 'stay_Agent', 'have_Agent', 'close_Agent', 'check_Agent']
+descriptor 26:
+['psychiatrist_Attribute', 'friend_Attribute', 'doctor_Attribute', 'father_Attribute', 'find_Agent', 'look_Agent', 'officer_Attribute', 'brother_Attribute', 'policeman_Attribute', 'uncle_Attribute']
+descriptor 27:
+['look_Agent', 'find_Agent', 'see_Agent', 'know_Agent', 'seem_Agent', 'get_Agent', 'experience_Agent', 'read_Agent', 'have_Agent', 'check_Agent']
+descriptor 28:
+['patient_Attribute', 'newspaper_Attribute', 'minion_Attribute', 'physician_Attribute', 'protect_Agent', 'bodyguard_Attribute', 'patron_Attribute', 'villa_Attribute', 'editor_Attribute', 'comrade_Attribute']
+descriptor 29:
+['novelist_Attribute', 'detective_Attribute', 'painter_Attribute', 'narrator_Attribute', 'prince_Attribute', 'aspiring_Attribute', 'author_Attribute', 'middle-aged_Attribute', 'accountant_Attribute', 'banker_Attribute']
+writing trajectories...
+done with epoch:  2  cost = 0.421862116681 time:  2997.04386306
+done with epoch:  3  cost = 0.449854912832 time:  2995.18871498
+done with epoch:  4  cost = 0.448072463994 time:  3001.26456213
+done with epoch:  5  cost = 0.444484784988 time:  3000.98343587
+done with epoch:  6  cost = 0.432596081907 time:  3000.16058111
+done with epoch:  7  cost = 0.464737456628 time:  3000.51144719
+done with epoch:  8  cost = 0.434389573248 time:  2998.85041595
+done with epoch:  9  cost = 0.460190000951 time:  2995.78145409
+done with epoch:  10  cost = 0.439795702581 time:  2995.20272398
+done with epoch:  11  cost = 0.444016216811 time:  2995.89970708
+done with epoch:  12  cost = 0.433580480287 time:  2996.62762594
+descriptor 0:
+['fool_Patient', 'decline_Agent', 'miss_Patient', 'deceive_Patient', 'commit_Patient', 'evade_Patient', 'follow_Patient', 'disguise_Patient', 'assign_Agent', 'ambush_Patient']
+descriptor 1:
+['execute_Patient', 'beg_Patient', 'fool_Patient', 'werewolf_Attribute', 'bug_Attribute', 'beat_Agent', 'rancher_Attribute', 'gypsy_Attribute']
+descriptor 2:
+['target_Patient', 'undercover_Attribute', 'in_Attribute', 'abduct_Agent', 'execute_Patient']
+descriptor 3:
+['subject_Patient', 'question_Patient', 'insane_Attribute', 'defend_Patient', 'hunter_Attribute', 'survive_Patient', 'strike_Patient', 'cover_Patient', 'challenge_Patient', 'form_Patient']
+descriptor 4:
+['fail_Agent', 'need_Agent', 'attempt_Agent', 'intend_Agent', 'want_Agent', 'try_Agent', 'seek_Agent', 'have_Agent', 'make_Agent', 'use_Agent']
+descriptor 5:
+['try_Patient', 'want_Patient', 'seek_Patient', 'break_Patient', 'return_Patient', 'attempt_Patient', 'need_Patient', 'make_Patient', 'let_Patient', 'forget_Patient']
+descriptor 6:
+['deliver_Patient', 'stalk_Patient', 'overpower_Patient', 'banish_Patient', 'launch_Patient', 'disarm_Patient', 'provoke_Patient', 'distract_Patient', 'enter_Patient', 'destroy_Patient']
+descriptor 7:
+['pass_Patient', 'crook_Attribute', 'claim_Patient', 'execute_Patient', 'reject_Patient', 'prove_Patient', 'possess_Patient', 'deal_Patient', 'dispose_Patient', 'promise_Patient']
+descriptor 8:
+['build_Patient', 'award_Patient', 'strand_Patient', 'fly_Patient', 'manage_Patient', 'announce_Patient', 'develop_Patient']
+descriptor 9:
+['do_Agent', 'try_Agent', 'fail_Agent', 'want_Agent', 'wish_Agent', 'intend_Agent', 'attempt_Agent', 'know_Agent', 'need_Agent', 'decide_Agent']
+descriptor 10:
+['clear_Patient', 'speak_Patient', 'discuss_Patient', 'sentence_Patient', 'ignore_Patient', 'call_Patient', 'argue_Patient']
+descriptor 11:
+['split_Patient', 'represent_Patient', 'hypnotize_Patient', 'imprison_Patient', 'blackmail_Patient', 'commit_Patient', 'disguise_Patient', 'frighten_Patient', 'fly_Patient', 'remain_Patient']
+descriptor 12:
+['restore_Patient', 'inhabitant_Attribute', 'inspector_Attribute', 'rush_Patient', 'none_Attribute', 'pass_Patient', 'excite_Patient', 'diagnose_Patient', 'drift_Agent', 'author_Attribute']
+descriptor 13:
+['infect_Patient', 'seduce_Patient', 's_Attribute', 'finish_Patient', 'stalk_Patient', 'devour_Patient', 'cowboy_Attribute', 'apologize_Agent', 'class_Attribute', 'support_Agent']
+descriptor 14:
+['assassin_Attribute', 'murderer_Attribute', 'bodyguard_Attribute', 'prostitute_Attribute', 'journalist_Attribute', 'policeman_Attribute', 'soldier_Attribute', 'guardian_Attribute', 'father_Attribute', 'wife_Attribute']
+descriptor 15:
+['collector_Attribute', 'negotiate_Agent', 'split_Agent', 'hitchhiker_Attribute', 'smite_Patient', 'japanese_Attribute', 'surrender_Agent', 'date_Agent', 'hunter_Attribute', 'await_Agent']
+descriptor 16:
+['disarm_Patient', 'gather_Patient', 'count_Agent', 'sniper_Attribute', 'english_Attribute', 'smuggle_Patient', 'whale_Attribute', 'japanese_Attribute', 'date_Agent', 'notice_Agent']
+descriptor 17:
+['owe_Patient', 'complain_Patient', 'suck_Patient', 'cure_Patient', 'realize_Patient', 'like_Patient', 'playboy_Attribute', 'mobster_Attribute']
+descriptor 18:
+['set_Patient', 'inspector_Attribute', 'rush_Patient', 'crook_Attribute', 'villain_Attribute']
+descriptor 19:
+['negotiate_Agent', 'spare_Agent', 'split_Agent', 'expert_Attribute', 'war_Attribute', 'deal_Agent', 'sign_Agent', 'slap_Agent']
+descriptor 20:
+['write_Patient', 'execute_Patient', 'stare_Patient', 'return_Patient', 'stumble_Patient', 'propose_Patient', 'do_Patient', 'break_Patient', 'pass_Patient', 'commit_Patient']
+descriptor 21:
+['insane_Attribute', 'naive_Attribute', 'alone_Attribute', 'proclaim_Agent', 'bury_Agent', 'ah_Attribute', 'planet_Attribute']
+descriptor 22:
+['assassin_Attribute', 'murderer_Attribute', 'bodyguard_Attribute', 'journalist_Attribute', 'prostitute_Attribute', 'hunter_Attribute', 'mobster_Attribute', 'soldier_Attribute', 'guardian_Attribute', 'cop_Attribute']
+descriptor 23:
+['expert_Attribute', 'pass_Patient', 'rush_Patient', 'toss_Agent', 'guru_Attribute', 'guide_Attribute', 'inspector_Attribute', 'bodyguard_Attribute', 'producer_Attribute', 'guide_Patient']
+descriptor 24:
+['fail_Agent', 'do_Agent', 'attempt_Agent', 'need_Agent', 'have_Agent', 'try_Agent', 'execute_Agent', 'want_Agent', 'gain_Agent', 'perform_Agent']
+descriptor 25:
+['janitor_Attribute', 'miner_Attribute', 'worker_Attribute', 'forbid_Agent', 'rancher_Attribute']
+descriptor 26:
+['subject_Patient', 'question_Patient', 'stare_Patient', 'gather_Patient', 'interrogate_Patient', 'discuss_Patient', 'consult_Patient', 'produce_Patient', 'forbid_Agent', 'strike_Patient']
+descriptor 27:
+['design_Agent', 'gambler_Attribute', 'slip_Agent', 'papa_Attribute', 'annoyed_Attribute', 'battle_Patient', 'beggar_Attribute', 'frustrated_Attribute', 'graduate_Agent', 'baron_Attribute']
+descriptor 28:
+['panther_Attribute', 'split_Agent', 'rule_Agent', 'risk_Agent', 'cut_Agent', 'intercept_Agent', 'gather_Agent', 'hatch_Agent', 'raj_Attribute', 'depressed_Attribute']
+descriptor 29:
+['bind_Patient', 'embarrass_Patient', 'crush_Patient', 'humiliate_Patient', 'maya_Attribute', 'stare_Patient', 'kiss_Patient', 'strangle_Patient', 'forbid_Agent', 'cast_Agent']
+writing trajectories...
+done with epoch:  13  cost = 0.41852384557 time:  2996.30774498
+descriptor 0:
+['rule_Agent', 'forbid_Agent', 'host_Agent', 'sister_Attribute', 'escort_Patient', 'elope_Agent', 'nun_Attribute']
+descriptor 1:
+['fool_Patient', 'hit_Patient', 'demand_Patient', 'dump_Patient', 'caller_Attribute', 'beg_Patient', 'execute_Patient', 'tiger_Attribute', 'dispatch_Patient', 'alert_Patient']
+descriptor 2:
+['don_Agent', 'undercover_Attribute', 'in_Attribute', 'target_Patient', 'calm_Agent']
+descriptor 3:
+['escape_Attribute', 'insane_Attribute', 'monster_Attribute', 'survive_Patient', 'question_Patient', 'minion_Attribute', 'revive_Patient', 'dangerous_Attribute', 'enraged_Attribute', 'propose_Patient']
+descriptor 4:
+['need_Agent', 'want_Agent', 'have_Agent', 'fail_Agent', 'do_Agent', 'wish_Agent', 'be_Agent', 'make_Agent', 'try_Agent', 'use_Agent']
+descriptor 5:
+['seek_Patient', 'try_Patient', 'attempt_Patient', 'want_Patient', 'execute_Patient', 'break_Patient', 'escape_Patient', 'call_Patient', 'forget_Patient', 'need_Patient']
+descriptor 6:
+['deliver_Patient', 'contact_Patient', 'earn_Agent', 'complete_Agent', 'send_Patient', 'notify_Patient', 'call_Patient', 'live_Patient', 'experience_Agent', 'manage_Agent']
+descriptor 7:
+['claim_Patient', 'pass_Patient', 'raj_Attribute', 'reject_Patient', 'ref_Attribute', 'rape_Attribute', 's_Attribute', 'unite_Agent', 'crook_Attribute', 'deal_Patient']
+descriptor 8:
+['build_Patient', 'strand_Patient', 'award_Patient', 'successful_Attribute']
+descriptor 9:
+['continue_Agent', 'stay_Agent', 'begin_Agent', 'want_Agent', 'wish_Agent', 'intend_Agent', 'offer_Agent', 'keep_Agent', 'start_Agent', 'discover_Agent']
+descriptor 10:
+['devastate_Patient', 'console_Patient', 'dress_Patient', 'forbid_Agent', 'lure_Agent', 'clear_Patient', 'blackmail_Patient']
+descriptor 11:
+['knight_Attribute', 'split_Patient', 'fighter_Attribute', 'begin_Patient', 'ruthless_Attribute', 'suitor_Attribute']
+descriptor 12:
+['insist_Agent', 'blonde_Attribute', 'hers_Attribute', 'rush_Patient', 'retaliate_Agent', 'fianc_Attribute', 'resent_Agent', 'disapprove_Agent', 'despise_Agent', 'restore_Patient']
+descriptor 13:
+['sympathetic_Attribute', 'corrupt_Attribute', 'client_Attribute', 'security_Attribute', 's_Attribute', 'max_Attribute', 'rich_Attribute', 'maya_Attribute', 'zombie_Attribute', 'master_Attribute']
+descriptor 14:
+['murderer_Attribute', 'assassin_Attribute', 'bodyguard_Attribute', 'widow_Attribute', 'guardian_Attribute', 'prostitute_Attribute', 'father_Attribute', 'hunter_Attribute', 'vampire_Attribute', 'servant_Attribute']
+descriptor 15:
+['negotiate_Agent', 'split_Agent', 'smite_Patient', 'hitchhiker_Attribute', 'subdue_Patient', 'collector_Attribute', 'aunt_Attribute', 'detain_Patient', 'complain_Agent', 'spare_Agent']
+descriptor 16:
+['insist_Agent', 'accuse_Agent', 'criticize_Agent', 'discuss_Patient', 'despise_Agent', 'sister_Attribute', 'profess_Agent', 'granddaughter_Attribute', 'subject_Patient', 'beloved_Attribute']
+descriptor 17:
+['ambitious_Attribute', 'captive_Attribute', 'loyal_Attribute', 'wealthy_Attribute', 'abducted_Attribute', 'eager_Attribute']
+descriptor 18:
+['accuse_Agent', 'alert_Agent', 'reassure_Agent', 'command_Agent', 'disarm_Agent', 'dispatch_Agent', 'bully_Agent']
+descriptor 19:
+['inspector_Attribute', 'deal_Agent', 'spare_Agent', 'revolve_Patient', 'slap_Agent', 'dispose_Patient', 'stab_Agent', 'alien_Attribute', 'prison_Attribute', 'out_Attribute']
+descriptor 20:
+['seek_Patient', 'attempt_Patient', 'call_Patient', 'try_Patient', 'want_Patient', 'declare_Patient', 'commit_Patient', 'execute_Patient', 'ignore_Patient', 'escape_Patient']
+descriptor 21:
+['alert_Patient', 'psychiatrist_Attribute', 'psychologist_Attribute', 'contain_Patient', 'expert_Attribute', 'report_Patient', 'strand_Patient', 'samurai_Attribute', 'warn_Patient', 'link_Patient']
+descriptor 22:
+['murderer_Attribute', 'assassin_Attribute', 'wife_Attribute', 'mother_Attribute', 'widow_Attribute', 'father_Attribute', 'husband_Attribute', 'bodyguard_Attribute', 'lover_Attribute', 'socialite_Attribute']
+descriptor 23:
+['pass_Patient', 'befriend_Patient', 'spare_Agent', 'portray_Agent', 'expert_Attribute', 'minister_Attribute', 'bodyguard_Attribute', 'confide_Patient', 'guru_Attribute', 'enlist_Patient']
+descriptor 24:
+['have_Agent', 'do_Agent', 'need_Agent', 'alien_Attribute', 'want_Agent', 'get_Agent', 'be_Agent', 'businessman_Attribute', 'fail_Agent', 'ghost_Attribute']
+descriptor 25:
+['propose_Patient', 'zombie_Attribute', 'forbid_Agent', 'cub_Attribute', 'worker_Attribute', 'plan_Patient', 'defeat_Patient', 'dangerous_Attribute', 'evil_Attribute']
+descriptor 26:
+['direct_Patient', 'dispatch_Patient', 'hitchhiker_Attribute', 'shut_Patient', 'promote_Agent', 'intimidate_Patient', 'alert_Patient', 'interrogate_Patient', 'gather_Patient', 'stare_Patient']
+descriptor 27:
+['composer_Attribute', 'aging_Attribute', 'grandmother_Attribute', 'bite_Patient', 'rob_Patient', 'gambler_Attribute', 'catch_Patient', 'ambush_Patient', 'gypsy_Attribute', 'grandfather_Attribute']
+descriptor 28:
+['raj_Attribute', 's_Attribute', 'name_Attribute', 'mean_Agent', 'spare_Patient', 'inspector_Attribute', 'movie_Attribute']
+descriptor 29:
+['strand_Patient', 'forbid_Agent', 'bind_Patient', 'stare_Patient', 'kiss_Patient']
+writing trajectories...
+done with epoch:  14  cost = 0.414665117104 time:  2995.10884881
+descriptor 0:
+['call_Patient', 'contact_Attribute', 'spy_Attribute', 'investigator_Attribute', 'scout_Attribute', 'sniper_Attribute', 'angel_Attribute', 'bully_Attribute', 'guardian_Attribute', 'start_Agent']
+descriptor 1:
+['hit_Patient', 'run_Patient', 'run_Agent', 'execute_Patient', 'demand_Patient', 'drop_Patient', 'crash_Patient', 'set_Patient', 'shut_Patient', 'dump_Patient']
+descriptor 2:
+['deceased_Attribute', 'werewolf_Attribute', 'mutant_Attribute', 'sympathetic_Attribute', 'undercover_Attribute', 'widow_Attribute', 'suitor_Attribute', 'don_Agent', 'hunter_Attribute']
+descriptor 3:
+['survive_Patient', 'rebuff_Patient', 'crawl_Agent', 'defend_Patient', 'portray_Agent', 'invade_Patient', 'revive_Patient', 'battle_Patient']
+descriptor 4:
+['want_Agent', 'have_Agent', 'need_Agent', 'do_Agent', 'fail_Agent', 'get_Agent', 'wish_Agent', 'know_Agent', 'decide_Agent', 'be_Agent']
+descriptor 5:
+['want_Patient', 'try_Patient', 'need_Patient', 'wish_Patient', 'seek_Patient', 'let_Patient', 'make_Patient', 'choose_Patient', 'tell_Patient', 'do_Patient']
+descriptor 6:
+['suitor_Attribute', 'contact_Patient', 'notify_Patient', 'please_Patient', 'cancel_Agent', 'handsome_Attribute', 'nephew_Attribute', 'exit_Agent', 'chief_Attribute']
+descriptor 7:
+['call_Patient', 'reject_Patient', 'raj_Attribute', 'claim_Patient', 'defeat_Patient', 'crook_Attribute', 'declare_Patient', 'appoint_Patient', 'oppose_Patient', 'taunt_Patient']
+descriptor 8:
+['strand_Patient', 'spy_Patient', 'award_Patient', 'enemy_Attribute', 'clean_Agent', 'build_Patient']
+descriptor 9:
+['loyal_Attribute', 'minion_Attribute', 'customer_Attribute', 'call_Patient', 'scold_Patient', 'hit_Patient', 'count_Attribute', 'dog_Attribute', 'strong_Attribute', 'follower_Attribute']
+descriptor 10:
+['console_Patient', 'god_Attribute', 'lure_Agent']
+descriptor 11:
+['reciprocate_Agent', 'scold_Agent']
+descriptor 12:
+['rush_Patient', 'inspector_Attribute', 'inhabitant_Attribute', 'tourist_Attribute', 'expert_Attribute', 'retaliate_Agent', 'visit_Attribute', 'startle_Patient', 'g_Attribute', 'max_Attribute']
+descriptor 13:
+['congratulate_Patient', 'cheer_Patient', 'smash_Agent', 'invite_Patient', 'thank_Patient', 'sympathetic_Attribute', 'crawl_Agent', 'join_Patient', 'city_Attribute', 'help_Patient']
+descriptor 14:
+['assassin_Attribute', 'murderer_Attribute', 'guardian_Attribute', 'bodyguard_Attribute', 'alien_Attribute', 'vampire_Attribute', 'hunter_Attribute', 'werewolf_Attribute', 'journalist_Attribute', 'demon_Attribute']
+descriptor 15:
+['declare_Patient', 'forgive_Patient', 'confess_Patient', 'love_Patient', 'split_Agent', 'slap_Agent', 'mermaid_Attribute']
+descriptor 16:
+['gunman_Attribute', 'classmate_Attribute', 'muslim_Attribute', 'subject_Patient']
+descriptor 17:
+['grateful_Attribute', 'visit_Attribute', 'proud_Attribute', 'loyal_Attribute', 'dream_Agent', 'longtime_Attribute', 'ambitious_Attribute', 'regret_Agent']
+descriptor 18:
+['crook_Attribute', 'guardian_Attribute', 'responsible_Attribute', 'inspector_Attribute', 'operative_Attribute']
+descriptor 19:
+['inspector_Attribute', 'set_Patient', 'stab_Agent', 'alien_Attribute', 'split_Agent', 'civilian_Attribute', 'pass_Patient', 'warden_Attribute', 'slap_Agent', 'trust_Patient']
+descriptor 20:
+['raj_Attribute', 'tiger_Attribute', 'angel_Attribute', 'hunter_Attribute', 'panther_Attribute', 'zombie_Attribute', 'shake_Agent', 'human_Attribute', 'nun_Attribute', 'ghost_Attribute']
+descriptor 21:
+['contain_Patient', 'capture_Agent', 'evade_Agent', 'narrate_Agent', 'stalk_Patient']
+descriptor 22:
+['want_Patient', 'try_Patient', 'wish_Patient', 'need_Patient', 'let_Patient', 'choose_Patient', 'make_Patient', 'seek_Patient', 'do_Patient', 'tell_Patient']
+descriptor 23:
+['befriend_Patient', 'embrace_Patient', 'surrender_Patient', 'pass_Patient', 'protect_Patient', 'trust_Patient', 'use_Agent', 'betray_Patient', 'enlist_Patient', 'ambush_Patient']
+descriptor 24:
+['alien_Attribute', 'investigator_Attribute', 'assassin_Attribute', 'ghost_Attribute', 'policeman_Attribute', 'bodyguard_Attribute', 'resident_Attribute', 'murderer_Attribute', 'actor_Attribute', 'journalist_Attribute']
+descriptor 25:
+['god_Attribute', 'maya_Attribute', 'defeat_Patient']
+descriptor 26:
+['relative_Attribute', 'angel_Attribute', 's_Agent', 'visitor_Attribute', 'papa_Attribute', 'consult_Patient', 'baby_Attribute', 'mutant_Attribute', 'skeptical_Attribute', 'minion_Attribute']
+descriptor 27:
+['thank_Patient', 'help_Patient', 'waiter_Attribute', 'manage_Agent', 'inspire_Patient', 'relate_Patient', 'remind_Patient', 'forgive_Patient', 'affect_Patient', 'handle_Agent']
+descriptor 28:
+['raj_Attribute', 'indian_Attribute', 'ghost_Attribute', 'attendant_Attribute', 'inspector_Attribute', 'panther_Attribute', 'actress_Attribute', 'fighter_Attribute', 'maya_Attribute', 'devour_Patient']
+descriptor 29:
+['strand_Patient', 'bind_Patient', 'maya_Attribute']
+writing trajectories...
+done with epoch:  15  cost = 0.412863216405 time:  2994.74755597
+done with epoch:  16  cost = 0.435314063067 time:  2995.8727591
+done with epoch:  17  cost = 0.436629010633 time:  2994.98030782
+done with epoch:  18  cost = 0.426569395622 time:  2997.26157284
+done with epoch:  19  cost = 0.434644225678 time:  2998.21920991
+done with epoch:  20  cost = 0.430986177321 time:  2997.79027081
+done with epoch:  21  cost = 0.433975470119 time:  2997.47693992
+done with epoch:  22  cost = 0.432170745709 time:  2989.08271217
+done with epoch:  23  cost = 0.476469579935 time:  2988.36148906
+done with epoch:  24  cost = 0.490324141703 time:  2993.49614286
+done with epoch:  25  cost = 0.493750237974 time:  2998.599334
+done with epoch:  26  cost = 0.487051180892 time:  2997.75373197
+done with epoch:  27  cost = 0.488267650736 time:  2997.247329
+done with epoch:  28  cost = 0.468589170477 time:  3000.29891491
+done with epoch:  29  cost = 0.467441485314 time:  2999.60412407

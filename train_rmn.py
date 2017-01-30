@@ -6,12 +6,14 @@ from util import *
 
 # assemble the network
 def build_rmn(d_word, d_char, d_book, d_hidden, len_voc, 
-    num_descs, num_chars, num_books, span_size, We, 
+    num_roles, num_descs, num_chars, num_books, span_size, We, 
     freeze_words=True, eps=1e-5, lr=0.01, negs=10):
 
     # input theano vars
     in_spans = T.imatrix(name='spans')
+    in_roles = T.imatrix(name='roles') 
     in_neg = T.imatrix(name='neg_spans')
+    in_negroles = T.imatrix(name='neg_roles')
     in_chars = T.ivector(name='chars')
     in_book = T.ivector(name='books')
     in_currmasks = T.matrix(name='curr_masks')
@@ -23,6 +25,11 @@ def build_rmn(d_word, d_char, d_book, d_hidden, len_voc,
         input_var=in_spans)
     l_inneg = lasagne.layers.InputLayer(shape=(negs, span_size), 
         input_var=in_neg)
+    l_inroles = lasagne.layers.InputLayer(shape=(None, span_size), 
+        input_var=in_roles)
+    l_innegroles = lasagne.layers.InputLayer(shape=(negs, span_size), 
+        input_var=in_negroles)
+
     #l_inchars = lasagne.layers.InputLayer(shape=(2, ), 
     #    input_var=in_chars)
     l_inbook = lasagne.layers.InputLayer(shape=(1, ), 
@@ -35,11 +42,14 @@ def build_rmn(d_word, d_char, d_book, d_hidden, len_voc,
         input_var=in_negmasks)
 
     # negative examples should use same embedding matrix
-    l_emb = MyEmbeddingLayer(l_inspans, len_voc, 
-        d_word, W=We, name='word_emb')
-    l_negemb = MyEmbeddingLayer(l_inneg, len_voc, 
-            d_word, W=l_emb.W, name='word_emb_copy1')
+    l_embind = MyIndexLayer([l_inspans, l_inroles], num_roles, name='Embedding Index')
+    l_negembind = MyIndexLayer([l_inneg, l_innegroles], num_roles, name='Embedding Index')
 
+    l_emb = MyEmbeddingLayer(l_embind, num_roles, len_voc, 
+        d_word, W=We, name='word_emb')
+    l_negemb = MyEmbeddingLayer(l_negembind, num_roles, len_voc, 
+            d_word, W=l_emb.W, R = l_emb.R, name='word_emb_copy1')
+    
     # freeze embeddings
     if freeze_words:
         l_emb.params[l_emb.W].remove('trainable')
@@ -88,22 +98,22 @@ def build_rmn(d_word, d_char, d_book, d_hidden, len_voc,
     all_params = lasagne.layers.get_all_params(l_recon, trainable=True)
     updates = lasagne.updates.adam(loss, all_params, learning_rate=lr)
     traj_fn = theano.function([in_book, #in_chars, 
-        in_spans, in_dropmasks], 
+        in_spans, in_dropmasks, in_roles], 
         lasagne.layers.get_output(l_rels))
     avg_fn = theano.function([in_book, 
-        in_spans, in_dropmasks], 
+        in_spans, in_dropmasks, in_roles], 
         lasagne.layers.get_output(l_rels),
 	on_unused_input="warn")
     train_fn = theano.function([in_book, 
-        in_spans, in_currmasks, in_dropmasks,
-        in_neg, in_negmasks], 
+        in_spans, in_currmasks, in_roles, in_dropmasks,
+        in_neg, in_negmasks, in_negroles], 
         [loss, ortho_penalty], updates=updates)
     return train_fn, traj_fn, l_recon, avg_fn
 
 if __name__ == '__main__':
 
     print 'loading data...'
-    span_data, span_size, wmap, cmap, bmap = \
+    span_data, span_size, wmap, cmap, bmap, rmap, wexists = \
         load_data('data/movie_characters.csv.gz', 'data/movie_metadata.pkl')
     We = cPickle.load(open('data/glove.We', 'rb')).astype('float32')
     norm_We = We / np.linalg.norm(We, axis=1)[:, None]
@@ -114,6 +124,7 @@ if __name__ == '__main__':
 
     # embedding/hidden dimensionality
     d_word = We.shape[1]
+    d_role = d_word 
     d_char = 50
     d_book = 50
     d_hidden = 50
@@ -133,17 +144,22 @@ if __name__ == '__main__':
     num_chars = len(cmap)
     num_books = len(bmap)
     num_traj = len(span_data)
+    num_roles = len(rmap)
     len_voc = len(wmap)
     revmap = {}
+    base = 0
     for w in wmap:
-        revmap[wmap[w]] = w
+	ind = 0
+    	for role in rmap: 
+            revmap[wmap[w] * num_roles + rmap[role]] = w + '_' + role
+	    ind += 1
 
     print d_word, span_size, num_descs, len_voc,\
-        num_chars, num_books, num_traj
+        num_roles, num_chars, num_books, num_traj
 
     print 'compiling...'
     train_fn, traj_fn, final_layer, avg_fn = build_rmn(
-        d_word, d_char, d_book, d_hidden, len_voc, num_descs, num_chars, 
+        d_word, d_char, d_book, d_hidden, len_voc, num_roles, num_descs, num_chars, 
         num_books, span_size, We, eps=eps, 
         freeze_words=True, lr=lr, negs=num_negs)
     print 'done compiling, now training...'
@@ -151,39 +167,39 @@ if __name__ == '__main__':
     # training loop
     min_cost = float('inf')
 
-    print 'writing trajectories...'
-    ilog = open(initialized_log, 'wb')
-    itraj_writer = csv.writer(ilog)
-    itraj_writer.writerow(['Book', 'Char 1', 'Char 2', 'Span ID'] + \
-           ['Topic ' + str(i) for i in range(num_descs)])
-    for book, chars, curr, cm in span_data:
-        c = [cmap[c] for c in chars]
-        bname = bmap[book]
+#    print 'writing trajectories...'
+#    ilog = open(initialized_log, 'wb')
+#    itraj_writer = csv.writer(ilog)
+#    itraj_writer.writerow(['Movie', 'Character', 'Span ID'] + \
+#           ['Topic ' + str(i) for i in range(num_descs)])
+#    for book, chars, curr, cm, cr in span_data:
+#        c = [cmap[c] for c in chars]
+#        bname = bmap[book]
 
         # feed unmasked inputs to get trajectories
-        traj = avg_fn(book, curr, cm) #chars, 
-        for ind in range(len(traj)):
-            step = traj[ind]
-            itraj_writer.writerow([bname, c, ind] + \
-                    list(step) )   
+#        traj = avg_fn(book, curr, cm, cr) #chars, 
+#        for ind in range(len(traj)):
+#            step = traj[ind]
+#            itraj_writer.writerow([bname, c, ind] + \
+#                    list(step) )   
 
-    ilog.flush()
-    ilog.close()
+#    ilog.flush()
+#    ilog.close()
 
     for epoch in range(n_epochs):
         cost = 0.
         random.shuffle(span_data)
         start_time = time.time()
-        for book, chars, curr, cm, in span_data:
-            ns, nm = generate_negative_samples(\
+        for book, chars, curr, cm, cr in span_data:
+            ns, nm, nr = generate_negative_samples(\
                 num_traj, span_size, num_negs, span_data)
 
             # word dropout
             drop_mask = (np.random.rand(*(cm.shape)) < (1 - p_drop)).astype('float32')
             drop_mask *= cm
 
-            ex_cost, ex_ortho = train_fn(book, curr, cm, drop_mask, #chars, 
-                ns, nm)
+            ex_cost, ex_ortho = train_fn(book, curr, cm, cr, drop_mask, #chars, 
+                ns, nm, nr)
             cost += ex_cost
         end_time = time.time()
 
@@ -198,12 +214,16 @@ if __name__ == '__main__':
 
             # compute nearest neighbors of descriptors
             R = p_dict['R']
+	    Re = p_dict['Re']
             log = open(descriptor_log, 'w')
             for ind in range(len(R)):
                 desc = R[ind] / np.linalg.norm(R[ind])
-                sims = We.dot(desc.T)
+                sims = np.einsum("ijk, xky->ijxy", We[None, :, :], Re)[0].reshape(num_roles * len_voc, d_word)
+		sims = sims.dot(desc.T) 
                 ordered_words = np.argsort(sims)[::-1]
-                desc_list = [ revmap[w] for w in ordered_words[:10]]
+                desc_list = [ revmap[w] for w in ordered_words[:30] if w in wexists ]
+		l = len(desc_list)
+		desc_list = desc_list[:min(l, 10)] 
                 log.write(' '.join(desc_list) + '\n')
                 print 'descriptor %d:' % ind
                 print desc_list
@@ -214,14 +234,14 @@ if __name__ == '__main__':
             print 'writing trajectories...'
             tlog = open(trajectory_log, 'wb')
             traj_writer = csv.writer(tlog)
-            traj_writer.writerow(['Book', 'Char 1', 'Char 2', 'Span ID'] + \
+            traj_writer.writerow(['Movie', 'Character', 'Span ID'] + \
                 ['Topic ' + str(i) for i in range(num_descs)])
-            for book, chars, curr, cm in span_data:
+            for book, chars, curr, cm, cr in span_data:
                 c = [cmap[c] for c in chars]
                 bname = bmap[book]
 
                 # feed unmasked inputs to get trajectories
-                traj = traj_fn(book, curr, cm) #chars, 
+                traj = traj_fn(book, curr, cm, cr) #chars, 
                 for ind in range(len(traj)):
                     step = traj[ind]
                     traj_writer.writerow([bname, c, ind] + \

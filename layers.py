@@ -2,24 +2,41 @@ import theano, cPickle, h5py, lasagne, random, csv, gzip
 import numpy as np
 import theano.tensor as T         
 
+class MyIndexLayer(lasagne.layers.MergeLayer):
+    def __init__(self, incomings, num_roles, **kwargs):
+        super(MyIndexLayer, self).__init__(incomings, **kwargs)
+        self.num_roles = num_roles
+
+    def get_output_for(self, inputs, **kwargs):
+        index_sum = inputs[0] * self.num_roles + inputs[1]
+	return index_sum
+
+    # batch_size x max_spans x d
+    def get_output_shape_for(self, input_shapes):
+        return input_shapes[0] 
 
 # rewritten embedding layer
 class MyEmbeddingLayer(lasagne.layers.Layer):
     
-    def __init__(self, incoming, input_size, output_size,
-                 W=lasagne.init.Normal(), name='W', **kwargs):
+    def __init__(self, incoming, num_roles, input_size, output_size,
+                 W=lasagne.init.Normal(), R=lasagne.init.Normal(), name='W', **kwargs):
         super(MyEmbeddingLayer, self).__init__(incoming, **kwargs)
 
         self.input_size = input_size
         self.output_size = output_size
+	self.num_roles = num_roles
 
         self.W = self.add_param(W, (input_size, output_size), name=name)
+	self.R = self.add_param(R, (num_roles, output_size, output_size), name='Re')
 
     def get_output_shape_for(self, input_shape):
         return input_shape + (self.output_size, )
 
     def get_output_for(self, input, **kwargs):
-        return self.W[input]
+	WM = T.tensordot(self.W[None, :, :], self.R, axes=[[2], [1]])
+	WM = WM[0]
+        WM = WM.reshape([self.input_size * self.num_roles, self.output_size])
+        return WM[input]
 
 # compute vector average
 class AverageLayer(lasagne.layers.MergeLayer):
